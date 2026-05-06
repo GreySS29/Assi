@@ -1,0 +1,3 @@
+/home/greys/ai/proj/build/CMakeFiles/voice_pipeline.dir
+/home/greys/ai/proj/build/CMakeFiles/edit_cache.dir
+/home/greys/ai/proj/build/CMakeFiles/rebuild_cache.dir
