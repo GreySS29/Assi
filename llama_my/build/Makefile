@@ -250,6 +250,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+my_llama.o: my_llama.cpp.o
+.PHONY : my_llama.o
+
+# target to build an object file
+my_llama.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/my_llama.cpp.o
+.PHONY : my_llama.cpp.o
+
+my_llama.i: my_llama.cpp.i
+.PHONY : my_llama.i
+
+# target to preprocess a source file
+my_llama.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/my_llama.cpp.i
+.PHONY : my_llama.cpp.i
+
+my_llama.s: my_llama.cpp.s
+.PHONY : my_llama.s
+
+# target to generate assembly for a file
+my_llama.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/my_llama.cpp.s
+.PHONY : my_llama.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,6 +294,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... my_llama.o"
+	@echo "... my_llama.i"
+	@echo "... my_llama.s"
 .PHONY : help
 
 

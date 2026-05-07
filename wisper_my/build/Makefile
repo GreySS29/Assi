@@ -226,29 +226,53 @@ whisper/fast:
 	$(MAKE) $(MAKESILENT) -f whisper_lib/src/CMakeFiles/whisper.dir/build.make whisper_lib/src/CMakeFiles/whisper.dir/build
 .PHONY : whisper/fast
 
-test_wisper.o: test_wisper.cpp.o
-.PHONY : test_wisper.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-test_wisper.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test_wisper.cpp.o
-.PHONY : test_wisper.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-test_wisper.i: test_wisper.cpp.i
-.PHONY : test_wisper.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-test_wisper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test_wisper.cpp.i
-.PHONY : test_wisper.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-test_wisper.s: test_wisper.cpp.s
-.PHONY : test_wisper.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-test_wisper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test_wisper.cpp.s
-.PHONY : test_wisper.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+my_whisper.o: my_whisper.cpp.o
+.PHONY : my_whisper.o
+
+# target to build an object file
+my_whisper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/my_whisper.cpp.o
+.PHONY : my_whisper.cpp.o
+
+my_whisper.i: my_whisper.cpp.i
+.PHONY : my_whisper.i
+
+# target to preprocess a source file
+my_whisper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/my_whisper.cpp.i
+.PHONY : my_whisper.cpp.i
+
+my_whisper.s: my_whisper.cpp.s
+.PHONY : my_whisper.s
+
+# target to generate assembly for a file
+my_whisper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/my_whisper.cpp.s
+.PHONY : my_whisper.cpp.s
 
 # Help Target
 help:
@@ -267,9 +291,12 @@ help:
 	@echo "... ggml-cpu"
 	@echo "... main"
 	@echo "... whisper"
-	@echo "... test_wisper.o"
-	@echo "... test_wisper.i"
-	@echo "... test_wisper.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... my_whisper.o"
+	@echo "... my_whisper.i"
+	@echo "... my_whisper.s"
 .PHONY : help
 
 

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/link.d"
-  "CMakeFiles/main.dir/test_wisper.cpp.o"
-  "CMakeFiles/main.dir/test_wisper.cpp.o.d"
+  "CMakeFiles/main.dir/main.cpp.o"
+  "CMakeFiles/main.dir/main.cpp.o.d"
+  "CMakeFiles/main.dir/my_whisper.cpp.o"
+  "CMakeFiles/main.dir/my_whisper.cpp.o.d"
   "main"
   "main.pdb"
 )

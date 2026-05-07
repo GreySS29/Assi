@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/greys/ai/wisper_my/test_wisper.cpp" "CMakeFiles/main.dir/test_wisper.cpp.o" "gcc" "CMakeFiles/main.dir/test_wisper.cpp.o.d"
+  "/home/greys/ai/wisper_my/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
+  "/home/greys/ai/wisper_my/my_whisper.cpp" "CMakeFiles/main.dir/my_whisper.cpp.o" "gcc" "CMakeFiles/main.dir/my_whisper.cpp.o.d"
   "" "main" "gcc" "CMakeFiles/main.dir/link.d"
   )
 

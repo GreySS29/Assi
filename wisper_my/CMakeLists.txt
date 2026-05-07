@@ -11,7 +11,7 @@ find_package(ALSA REQUIRED)
 add_subdirectory(../whisper.cpp whisper_lib)
 
 # Твой исполняемый файл
-add_executable(main test_wisper.cpp)
+add_executable(main main.cpp my_whisper.cpp)
 
 # Линкуем с whisper и alsa
 target_link_libraries(main PRIVATE whisper ${ALSA_LIBRARIES})

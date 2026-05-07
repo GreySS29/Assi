@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_subdirectory(../llama.cpp llama_build)
 
 # Твой исполняемый файл
-add_executable(main main.cpp)
+add_executable(main main.cpp my_llama.cpp)
 
 target_include_directories(main PRIVATE ../llama.cpp)
 target_include_directories(main PRIVATE ../llama.cpp/ggml/include)

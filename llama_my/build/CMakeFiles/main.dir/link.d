@@ -3,6 +3,7 @@ main: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/main.dir/main.cpp.o \
+  CMakeFiles/main.dir/my_llama.cpp.o \
   bin/libllama.so.0.0.7693 \
   bin/libggml.so.0.9.5 \
   bin/libggml-cpu.so.0.9.5 \
@@ -44,6 +45,8 @@ main: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
 CMakeFiles/main.dir/main.cpp.o:
+
+CMakeFiles/main.dir/my_llama.cpp.o:
 
 bin/libllama.so.0.0.7693:
 

@@ -1,5 +1,6 @@
 CMakeFiles/main.dir/main.cpp.o: /home/greys/ai/llama_my/main.cpp \
- /usr/include/stdc-predef.h /home/greys/ai/llama_my/llama.h \
+ /usr/include/stdc-predef.h /home/greys/ai/llama_my/my_llama.h \
+ /home/greys/ai/llama.cpp/src/../include/llama.h \
  /home/greys/ai/llama_my/../llama.cpp/ggml/include/ggml.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \

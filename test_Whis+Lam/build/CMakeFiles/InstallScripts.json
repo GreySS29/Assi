@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/greys/ai/test_Whis+Lam/build/cmake_install.cmake",
+		"/home/greys/ai/test_Whis+Lam/build/whisper_lib/cmake_install.cmake",
+		"/home/greys/ai/test_Whis+Lam/build/whisper_lib/ggml/cmake_install.cmake",
+		"/home/greys/ai/test_Whis+Lam/build/whisper_lib/ggml/src/cmake_install.cmake",
+		"/home/greys/ai/test_Whis+Lam/build/whisper_lib/ggml/src/ggml-cpu/cmake_install.cmake",
+		"/home/greys/ai/test_Whis+Lam/build/whisper_lib/src/cmake_install.cmake",
+		"/home/greys/ai/test_Whis+Lam/build/llama_build/cmake_install.cmake",
+		"/home/greys/ai/test_Whis+Lam/build/llama_build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

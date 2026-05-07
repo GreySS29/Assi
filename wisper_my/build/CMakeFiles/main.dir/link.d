@@ -2,7 +2,8 @@ main: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
-  CMakeFiles/main.dir/test_wisper.cpp.o \
+  CMakeFiles/main.dir/main.cpp.o \
+  CMakeFiles/main.dir/my_whisper.cpp.o \
   whisper_lib/src/libwhisper.so.1.8.4 \
   /usr/lib/libasound.so \
   whisper_lib/ggml/src/libggml.so.0.9.8 \
@@ -44,7 +45,9 @@ main: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
-CMakeFiles/main.dir/test_wisper.cpp.o:
+CMakeFiles/main.dir/main.cpp.o:
+
+CMakeFiles/main.dir/my_whisper.cpp.o:
 
 whisper_lib/src/libwhisper.so.1.8.4:
 
