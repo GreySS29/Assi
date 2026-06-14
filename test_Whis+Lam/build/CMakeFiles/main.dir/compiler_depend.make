@@ -84,105 +84,110 @@ CMakeFiles/main.dir/home/greys/ai/llama_my/my_llama.cpp.o: /home/greys/ai/llama_
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
-  /usr/include/c++/15.2.1/backward/binders.h \
-  /usr/include/c++/15.2.1/bit \
-  /usr/include/c++/15.2.1/bits/alloc_traits.h \
-  /usr/include/c++/15.2.1/bits/allocator.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
-  /usr/include/c++/15.2.1/bits/basic_string.h \
-  /usr/include/c++/15.2.1/bits/basic_string.tcc \
-  /usr/include/c++/15.2.1/bits/char_traits.h \
-  /usr/include/c++/15.2.1/bits/charconv.h \
-  /usr/include/c++/15.2.1/bits/concept_check.h \
-  /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15.2.1/bits/exception.h \
-  /usr/include/c++/15.2.1/bits/exception_defines.h \
-  /usr/include/c++/15.2.1/bits/exception_ptr.h \
-  /usr/include/c++/15.2.1/bits/functexcept.h \
-  /usr/include/c++/15.2.1/bits/functional_hash.h \
-  /usr/include/c++/15.2.1/bits/hash_bytes.h \
-  /usr/include/c++/15.2.1/bits/invoke.h \
-  /usr/include/c++/15.2.1/bits/ios_base.h \
-  /usr/include/c++/15.2.1/bits/istream.tcc \
-  /usr/include/c++/15.2.1/bits/locale_classes.h \
-  /usr/include/c++/15.2.1/bits/locale_classes.tcc \
-  /usr/include/c++/15.2.1/bits/locale_facets.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
-  /usr/include/c++/15.2.1/bits/localefwd.h \
-  /usr/include/c++/15.2.1/bits/memoryfwd.h \
-  /usr/include/c++/15.2.1/bits/move.h \
-  /usr/include/c++/15.2.1/bits/nested_exception.h \
-  /usr/include/c++/15.2.1/bits/new_allocator.h \
-  /usr/include/c++/15.2.1/bits/ostream.h \
-  /usr/include/c++/15.2.1/bits/ostream.tcc \
-  /usr/include/c++/15.2.1/bits/ostream_insert.h \
-  /usr/include/c++/15.2.1/bits/postypes.h \
-  /usr/include/c++/15.2.1/bits/predefined_ops.h \
-  /usr/include/c++/15.2.1/bits/ptr_traits.h \
-  /usr/include/c++/15.2.1/bits/range_access.h \
-  /usr/include/c++/15.2.1/bits/refwrap.h \
-  /usr/include/c++/15.2.1/bits/requires_hosted.h \
-  /usr/include/c++/15.2.1/bits/std_abs.h \
-  /usr/include/c++/15.2.1/bits/stl_algobase.h \
-  /usr/include/c++/15.2.1/bits/stl_bvector.h \
-  /usr/include/c++/15.2.1/bits/stl_construct.h \
-  /usr/include/c++/15.2.1/bits/stl_function.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15.2.1/bits/stl_pair.h \
-  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/stl_vector.h \
-  /usr/include/c++/15.2.1/bits/streambuf.tcc \
-  /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
-  /usr/include/c++/15.2.1/bits/stringfwd.h \
-  /usr/include/c++/15.2.1/bits/utility.h \
-  /usr/include/c++/15.2.1/bits/vector.tcc \
-  /usr/include/c++/15.2.1/bits/version.h \
-  /usr/include/c++/15.2.1/cctype \
-  /usr/include/c++/15.2.1/cerrno \
-  /usr/include/c++/15.2.1/clocale \
-  /usr/include/c++/15.2.1/concepts \
-  /usr/include/c++/15.2.1/cstdio \
-  /usr/include/c++/15.2.1/cstdlib \
-  /usr/include/c++/15.2.1/cwchar \
-  /usr/include/c++/15.2.1/cwctype \
-  /usr/include/c++/15.2.1/debug/assertions.h \
-  /usr/include/c++/15.2.1/debug/debug.h \
-  /usr/include/c++/15.2.1/exception \
-  /usr/include/c++/15.2.1/ext/alloc_traits.h \
-  /usr/include/c++/15.2.1/ext/atomicity.h \
-  /usr/include/c++/15.2.1/ext/numeric_traits.h \
-  /usr/include/c++/15.2.1/ext/string_conversions.h \
-  /usr/include/c++/15.2.1/ext/type_traits.h \
-  /usr/include/c++/15.2.1/initializer_list \
-  /usr/include/c++/15.2.1/ios \
-  /usr/include/c++/15.2.1/iosfwd \
-  /usr/include/c++/15.2.1/iostream \
-  /usr/include/c++/15.2.1/istream \
-  /usr/include/c++/15.2.1/new \
-  /usr/include/c++/15.2.1/ostream \
-  /usr/include/c++/15.2.1/stdexcept \
-  /usr/include/c++/15.2.1/streambuf \
-  /usr/include/c++/15.2.1/string \
-  /usr/include/c++/15.2.1/system_error \
-  /usr/include/c++/15.2.1/type_traits \
-  /usr/include/c++/15.2.1/typeinfo \
-  /usr/include/c++/15.2.1/vector \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/16.1.1/backward/binders.h \
+  /usr/include/c++/16.1.1/bit \
+  /usr/include/c++/16.1.1/bits/alloc_traits.h \
+  /usr/include/c++/16.1.1/bits/allocator.h \
+  /usr/include/c++/16.1.1/bits/basic_ios.h \
+  /usr/include/c++/16.1.1/bits/basic_ios.tcc \
+  /usr/include/c++/16.1.1/bits/basic_string.h \
+  /usr/include/c++/16.1.1/bits/basic_string.tcc \
+  /usr/include/c++/16.1.1/bits/char_traits.h \
+  /usr/include/c++/16.1.1/bits/charconv.h \
+  /usr/include/c++/16.1.1/bits/concept_check.h \
+  /usr/include/c++/16.1.1/bits/cpp_type_traits.h \
+  /usr/include/c++/16.1.1/bits/cxxabi_forced.h \
+  /usr/include/c++/16.1.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/16.1.1/bits/erase_if.h \
+  /usr/include/c++/16.1.1/bits/exception.h \
+  /usr/include/c++/16.1.1/bits/exception_defines.h \
+  /usr/include/c++/16.1.1/bits/exception_ptr.h \
+  /usr/include/c++/16.1.1/bits/functexcept.h \
+  /usr/include/c++/16.1.1/bits/functional_hash.h \
+  /usr/include/c++/16.1.1/bits/hash_bytes.h \
+  /usr/include/c++/16.1.1/bits/ios_base.h \
+  /usr/include/c++/16.1.1/bits/istream.tcc \
+  /usr/include/c++/16.1.1/bits/locale_classes.h \
+  /usr/include/c++/16.1.1/bits/locale_classes.tcc \
+  /usr/include/c++/16.1.1/bits/locale_facets.h \
+  /usr/include/c++/16.1.1/bits/locale_facets.tcc \
+  /usr/include/c++/16.1.1/bits/localefwd.h \
+  /usr/include/c++/16.1.1/bits/memoryfwd.h \
+  /usr/include/c++/16.1.1/bits/move.h \
+  /usr/include/c++/16.1.1/bits/nested_exception.h \
+  /usr/include/c++/16.1.1/bits/new_allocator.h \
+  /usr/include/c++/16.1.1/bits/new_except.h \
+  /usr/include/c++/16.1.1/bits/new_throw.h \
+  /usr/include/c++/16.1.1/bits/ostream.h \
+  /usr/include/c++/16.1.1/bits/ostream.tcc \
+  /usr/include/c++/16.1.1/bits/ostream_insert.h \
+  /usr/include/c++/16.1.1/bits/ostream_print.h \
+  /usr/include/c++/16.1.1/bits/postypes.h \
+  /usr/include/c++/16.1.1/bits/predefined_ops.h \
+  /usr/include/c++/16.1.1/bits/ptr_traits.h \
+  /usr/include/c++/16.1.1/bits/range_access.h \
+  /usr/include/c++/16.1.1/bits/requires_hosted.h \
+  /usr/include/c++/16.1.1/bits/std_abs.h \
+  /usr/include/c++/16.1.1/bits/stdexcept_except.h \
+  /usr/include/c++/16.1.1/bits/stdexcept_throw.h \
+  /usr/include/c++/16.1.1/bits/stdexcept_throwfwd.h \
+  /usr/include/c++/16.1.1/bits/stl_algobase.h \
+  /usr/include/c++/16.1.1/bits/stl_bvector.h \
+  /usr/include/c++/16.1.1/bits/stl_construct.h \
+  /usr/include/c++/16.1.1/bits/stl_function.h \
+  /usr/include/c++/16.1.1/bits/stl_iterator.h \
+  /usr/include/c++/16.1.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/16.1.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/16.1.1/bits/stl_pair.h \
+  /usr/include/c++/16.1.1/bits/stl_uninitialized.h \
+  /usr/include/c++/16.1.1/bits/stl_vector.h \
+  /usr/include/c++/16.1.1/bits/streambuf.tcc \
+  /usr/include/c++/16.1.1/bits/streambuf_iterator.h \
+  /usr/include/c++/16.1.1/bits/stringfwd.h \
+  /usr/include/c++/16.1.1/bits/utility.h \
+  /usr/include/c++/16.1.1/bits/vector.tcc \
+  /usr/include/c++/16.1.1/bits/version.h \
+  /usr/include/c++/16.1.1/cctype \
+  /usr/include/c++/16.1.1/cerrno \
+  /usr/include/c++/16.1.1/clocale \
+  /usr/include/c++/16.1.1/concepts \
+  /usr/include/c++/16.1.1/cstdio \
+  /usr/include/c++/16.1.1/cstdlib \
+  /usr/include/c++/16.1.1/cwchar \
+  /usr/include/c++/16.1.1/cwctype \
+  /usr/include/c++/16.1.1/debug/assertions.h \
+  /usr/include/c++/16.1.1/debug/debug.h \
+  /usr/include/c++/16.1.1/exception \
+  /usr/include/c++/16.1.1/ext/alloc_traits.h \
+  /usr/include/c++/16.1.1/ext/atomicity.h \
+  /usr/include/c++/16.1.1/ext/numeric_traits.h \
+  /usr/include/c++/16.1.1/ext/string_conversions.h \
+  /usr/include/c++/16.1.1/ext/type_traits.h \
+  /usr/include/c++/16.1.1/initializer_list \
+  /usr/include/c++/16.1.1/ios \
+  /usr/include/c++/16.1.1/iosfwd \
+  /usr/include/c++/16.1.1/iostream \
+  /usr/include/c++/16.1.1/istream \
+  /usr/include/c++/16.1.1/new \
+  /usr/include/c++/16.1.1/ostream \
+  /usr/include/c++/16.1.1/stdexcept \
+  /usr/include/c++/16.1.1/streambuf \
+  /usr/include/c++/16.1.1/string \
+  /usr/include/c++/16.1.1/system_error \
+  /usr/include/c++/16.1.1/type_traits \
+  /usr/include/c++/16.1.1/typeinfo \
+  /usr/include/c++/16.1.1/vector \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -209,10 +214,10 @@ CMakeFiles/main.dir/home/greys/ai/llama_my/my_llama.cpp.o: /home/greys/ai/llama_
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h
 
 CMakeFiles/main.dir/home/greys/ai/wisper_my/my_whisper.cpp.o: /home/greys/ai/wisper_my/my_whisper.cpp \
   /home/greys/ai/llama.cpp/ggml/include/ggml-alloc.h \
@@ -256,6 +261,7 @@ CMakeFiles/main.dir/home/greys/ai/wisper_my/my_whisper.cpp.o: /home/greys/ai/wis
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/cloexec.h \
   /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
@@ -330,106 +336,111 @@ CMakeFiles/main.dir/home/greys/ai/wisper_my/my_whisper.cpp.o: /home/greys/ai/wis
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
-  /usr/include/c++/15.2.1/backward/binders.h \
-  /usr/include/c++/15.2.1/bit \
-  /usr/include/c++/15.2.1/bits/alloc_traits.h \
-  /usr/include/c++/15.2.1/bits/allocator.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
-  /usr/include/c++/15.2.1/bits/basic_string.h \
-  /usr/include/c++/15.2.1/bits/basic_string.tcc \
-  /usr/include/c++/15.2.1/bits/char_traits.h \
-  /usr/include/c++/15.2.1/bits/charconv.h \
-  /usr/include/c++/15.2.1/bits/concept_check.h \
-  /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15.2.1/bits/exception.h \
-  /usr/include/c++/15.2.1/bits/exception_defines.h \
-  /usr/include/c++/15.2.1/bits/exception_ptr.h \
-  /usr/include/c++/15.2.1/bits/functexcept.h \
-  /usr/include/c++/15.2.1/bits/functional_hash.h \
-  /usr/include/c++/15.2.1/bits/hash_bytes.h \
-  /usr/include/c++/15.2.1/bits/invoke.h \
-  /usr/include/c++/15.2.1/bits/ios_base.h \
-  /usr/include/c++/15.2.1/bits/istream.tcc \
-  /usr/include/c++/15.2.1/bits/locale_classes.h \
-  /usr/include/c++/15.2.1/bits/locale_classes.tcc \
-  /usr/include/c++/15.2.1/bits/locale_facets.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
-  /usr/include/c++/15.2.1/bits/localefwd.h \
-  /usr/include/c++/15.2.1/bits/memoryfwd.h \
-  /usr/include/c++/15.2.1/bits/move.h \
-  /usr/include/c++/15.2.1/bits/nested_exception.h \
-  /usr/include/c++/15.2.1/bits/new_allocator.h \
-  /usr/include/c++/15.2.1/bits/ostream.h \
-  /usr/include/c++/15.2.1/bits/ostream.tcc \
-  /usr/include/c++/15.2.1/bits/ostream_insert.h \
-  /usr/include/c++/15.2.1/bits/postypes.h \
-  /usr/include/c++/15.2.1/bits/predefined_ops.h \
-  /usr/include/c++/15.2.1/bits/ptr_traits.h \
-  /usr/include/c++/15.2.1/bits/range_access.h \
-  /usr/include/c++/15.2.1/bits/refwrap.h \
-  /usr/include/c++/15.2.1/bits/requires_hosted.h \
-  /usr/include/c++/15.2.1/bits/std_abs.h \
-  /usr/include/c++/15.2.1/bits/stl_algobase.h \
-  /usr/include/c++/15.2.1/bits/stl_bvector.h \
-  /usr/include/c++/15.2.1/bits/stl_construct.h \
-  /usr/include/c++/15.2.1/bits/stl_function.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15.2.1/bits/stl_pair.h \
-  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/stl_vector.h \
-  /usr/include/c++/15.2.1/bits/streambuf.tcc \
-  /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
-  /usr/include/c++/15.2.1/bits/stringfwd.h \
-  /usr/include/c++/15.2.1/bits/utility.h \
-  /usr/include/c++/15.2.1/bits/vector.tcc \
-  /usr/include/c++/15.2.1/bits/version.h \
-  /usr/include/c++/15.2.1/cctype \
-  /usr/include/c++/15.2.1/cerrno \
-  /usr/include/c++/15.2.1/clocale \
-  /usr/include/c++/15.2.1/concepts \
-  /usr/include/c++/15.2.1/cstdio \
-  /usr/include/c++/15.2.1/cstdlib \
-  /usr/include/c++/15.2.1/cwchar \
-  /usr/include/c++/15.2.1/cwctype \
-  /usr/include/c++/15.2.1/debug/assertions.h \
-  /usr/include/c++/15.2.1/debug/debug.h \
-  /usr/include/c++/15.2.1/exception \
-  /usr/include/c++/15.2.1/ext/alloc_traits.h \
-  /usr/include/c++/15.2.1/ext/atomicity.h \
-  /usr/include/c++/15.2.1/ext/numeric_traits.h \
-  /usr/include/c++/15.2.1/ext/string_conversions.h \
-  /usr/include/c++/15.2.1/ext/type_traits.h \
-  /usr/include/c++/15.2.1/initializer_list \
-  /usr/include/c++/15.2.1/ios \
-  /usr/include/c++/15.2.1/iosfwd \
-  /usr/include/c++/15.2.1/iostream \
-  /usr/include/c++/15.2.1/istream \
-  /usr/include/c++/15.2.1/new \
-  /usr/include/c++/15.2.1/ostream \
-  /usr/include/c++/15.2.1/stdexcept \
-  /usr/include/c++/15.2.1/stdlib.h \
-  /usr/include/c++/15.2.1/streambuf \
-  /usr/include/c++/15.2.1/string \
-  /usr/include/c++/15.2.1/system_error \
-  /usr/include/c++/15.2.1/type_traits \
-  /usr/include/c++/15.2.1/typeinfo \
-  /usr/include/c++/15.2.1/vector \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/16.1.1/backward/binders.h \
+  /usr/include/c++/16.1.1/bit \
+  /usr/include/c++/16.1.1/bits/alloc_traits.h \
+  /usr/include/c++/16.1.1/bits/allocator.h \
+  /usr/include/c++/16.1.1/bits/basic_ios.h \
+  /usr/include/c++/16.1.1/bits/basic_ios.tcc \
+  /usr/include/c++/16.1.1/bits/basic_string.h \
+  /usr/include/c++/16.1.1/bits/basic_string.tcc \
+  /usr/include/c++/16.1.1/bits/char_traits.h \
+  /usr/include/c++/16.1.1/bits/charconv.h \
+  /usr/include/c++/16.1.1/bits/concept_check.h \
+  /usr/include/c++/16.1.1/bits/cpp_type_traits.h \
+  /usr/include/c++/16.1.1/bits/cxxabi_forced.h \
+  /usr/include/c++/16.1.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/16.1.1/bits/erase_if.h \
+  /usr/include/c++/16.1.1/bits/exception.h \
+  /usr/include/c++/16.1.1/bits/exception_defines.h \
+  /usr/include/c++/16.1.1/bits/exception_ptr.h \
+  /usr/include/c++/16.1.1/bits/functexcept.h \
+  /usr/include/c++/16.1.1/bits/functional_hash.h \
+  /usr/include/c++/16.1.1/bits/hash_bytes.h \
+  /usr/include/c++/16.1.1/bits/ios_base.h \
+  /usr/include/c++/16.1.1/bits/istream.tcc \
+  /usr/include/c++/16.1.1/bits/locale_classes.h \
+  /usr/include/c++/16.1.1/bits/locale_classes.tcc \
+  /usr/include/c++/16.1.1/bits/locale_facets.h \
+  /usr/include/c++/16.1.1/bits/locale_facets.tcc \
+  /usr/include/c++/16.1.1/bits/localefwd.h \
+  /usr/include/c++/16.1.1/bits/memoryfwd.h \
+  /usr/include/c++/16.1.1/bits/move.h \
+  /usr/include/c++/16.1.1/bits/nested_exception.h \
+  /usr/include/c++/16.1.1/bits/new_allocator.h \
+  /usr/include/c++/16.1.1/bits/new_except.h \
+  /usr/include/c++/16.1.1/bits/new_throw.h \
+  /usr/include/c++/16.1.1/bits/ostream.h \
+  /usr/include/c++/16.1.1/bits/ostream.tcc \
+  /usr/include/c++/16.1.1/bits/ostream_insert.h \
+  /usr/include/c++/16.1.1/bits/ostream_print.h \
+  /usr/include/c++/16.1.1/bits/postypes.h \
+  /usr/include/c++/16.1.1/bits/predefined_ops.h \
+  /usr/include/c++/16.1.1/bits/ptr_traits.h \
+  /usr/include/c++/16.1.1/bits/range_access.h \
+  /usr/include/c++/16.1.1/bits/requires_hosted.h \
+  /usr/include/c++/16.1.1/bits/std_abs.h \
+  /usr/include/c++/16.1.1/bits/stdexcept_except.h \
+  /usr/include/c++/16.1.1/bits/stdexcept_throw.h \
+  /usr/include/c++/16.1.1/bits/stdexcept_throwfwd.h \
+  /usr/include/c++/16.1.1/bits/stl_algobase.h \
+  /usr/include/c++/16.1.1/bits/stl_bvector.h \
+  /usr/include/c++/16.1.1/bits/stl_construct.h \
+  /usr/include/c++/16.1.1/bits/stl_function.h \
+  /usr/include/c++/16.1.1/bits/stl_iterator.h \
+  /usr/include/c++/16.1.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/16.1.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/16.1.1/bits/stl_pair.h \
+  /usr/include/c++/16.1.1/bits/stl_uninitialized.h \
+  /usr/include/c++/16.1.1/bits/stl_vector.h \
+  /usr/include/c++/16.1.1/bits/streambuf.tcc \
+  /usr/include/c++/16.1.1/bits/streambuf_iterator.h \
+  /usr/include/c++/16.1.1/bits/stringfwd.h \
+  /usr/include/c++/16.1.1/bits/utility.h \
+  /usr/include/c++/16.1.1/bits/vector.tcc \
+  /usr/include/c++/16.1.1/bits/version.h \
+  /usr/include/c++/16.1.1/cctype \
+  /usr/include/c++/16.1.1/cerrno \
+  /usr/include/c++/16.1.1/clocale \
+  /usr/include/c++/16.1.1/concepts \
+  /usr/include/c++/16.1.1/cstdio \
+  /usr/include/c++/16.1.1/cstdlib \
+  /usr/include/c++/16.1.1/cwchar \
+  /usr/include/c++/16.1.1/cwctype \
+  /usr/include/c++/16.1.1/debug/assertions.h \
+  /usr/include/c++/16.1.1/debug/debug.h \
+  /usr/include/c++/16.1.1/exception \
+  /usr/include/c++/16.1.1/ext/alloc_traits.h \
+  /usr/include/c++/16.1.1/ext/atomicity.h \
+  /usr/include/c++/16.1.1/ext/numeric_traits.h \
+  /usr/include/c++/16.1.1/ext/string_conversions.h \
+  /usr/include/c++/16.1.1/ext/type_traits.h \
+  /usr/include/c++/16.1.1/initializer_list \
+  /usr/include/c++/16.1.1/ios \
+  /usr/include/c++/16.1.1/iosfwd \
+  /usr/include/c++/16.1.1/iostream \
+  /usr/include/c++/16.1.1/istream \
+  /usr/include/c++/16.1.1/new \
+  /usr/include/c++/16.1.1/ostream \
+  /usr/include/c++/16.1.1/stdexcept \
+  /usr/include/c++/16.1.1/stdlib.h \
+  /usr/include/c++/16.1.1/streambuf \
+  /usr/include/c++/16.1.1/string \
+  /usr/include/c++/16.1.1/system_error \
+  /usr/include/c++/16.1.1/type_traits \
+  /usr/include/c++/16.1.1/typeinfo \
+  /usr/include/c++/16.1.1/vector \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -465,10 +476,10 @@ CMakeFiles/main.dir/home/greys/ai/wisper_my/my_whisper.cpp.o: /home/greys/ai/wis
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h
 
 CMakeFiles/main.dir/main.cpp.o: /home/greys/ai/test_Whis+Lam/main.cpp \
   /home/greys/ai/llama.cpp/include/llama.h \
@@ -515,6 +526,7 @@ CMakeFiles/main.dir/main.cpp.o: /home/greys/ai/test_Whis+Lam/main.cpp \
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/cloexec.h \
   /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
@@ -589,106 +601,111 @@ CMakeFiles/main.dir/main.cpp.o: /home/greys/ai/test_Whis+Lam/main.cpp \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
-  /usr/include/c++/15.2.1/backward/binders.h \
-  /usr/include/c++/15.2.1/bit \
-  /usr/include/c++/15.2.1/bits/alloc_traits.h \
-  /usr/include/c++/15.2.1/bits/allocator.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.h \
-  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
-  /usr/include/c++/15.2.1/bits/basic_string.h \
-  /usr/include/c++/15.2.1/bits/basic_string.tcc \
-  /usr/include/c++/15.2.1/bits/char_traits.h \
-  /usr/include/c++/15.2.1/bits/charconv.h \
-  /usr/include/c++/15.2.1/bits/concept_check.h \
-  /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
-  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
-  /usr/include/c++/15.2.1/bits/exception.h \
-  /usr/include/c++/15.2.1/bits/exception_defines.h \
-  /usr/include/c++/15.2.1/bits/exception_ptr.h \
-  /usr/include/c++/15.2.1/bits/functexcept.h \
-  /usr/include/c++/15.2.1/bits/functional_hash.h \
-  /usr/include/c++/15.2.1/bits/hash_bytes.h \
-  /usr/include/c++/15.2.1/bits/invoke.h \
-  /usr/include/c++/15.2.1/bits/ios_base.h \
-  /usr/include/c++/15.2.1/bits/istream.tcc \
-  /usr/include/c++/15.2.1/bits/locale_classes.h \
-  /usr/include/c++/15.2.1/bits/locale_classes.tcc \
-  /usr/include/c++/15.2.1/bits/locale_facets.h \
-  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
-  /usr/include/c++/15.2.1/bits/localefwd.h \
-  /usr/include/c++/15.2.1/bits/memoryfwd.h \
-  /usr/include/c++/15.2.1/bits/move.h \
-  /usr/include/c++/15.2.1/bits/nested_exception.h \
-  /usr/include/c++/15.2.1/bits/new_allocator.h \
-  /usr/include/c++/15.2.1/bits/ostream.h \
-  /usr/include/c++/15.2.1/bits/ostream.tcc \
-  /usr/include/c++/15.2.1/bits/ostream_insert.h \
-  /usr/include/c++/15.2.1/bits/postypes.h \
-  /usr/include/c++/15.2.1/bits/predefined_ops.h \
-  /usr/include/c++/15.2.1/bits/ptr_traits.h \
-  /usr/include/c++/15.2.1/bits/range_access.h \
-  /usr/include/c++/15.2.1/bits/refwrap.h \
-  /usr/include/c++/15.2.1/bits/requires_hosted.h \
-  /usr/include/c++/15.2.1/bits/std_abs.h \
-  /usr/include/c++/15.2.1/bits/stl_algobase.h \
-  /usr/include/c++/15.2.1/bits/stl_bvector.h \
-  /usr/include/c++/15.2.1/bits/stl_construct.h \
-  /usr/include/c++/15.2.1/bits/stl_function.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
-  /usr/include/c++/15.2.1/bits/stl_pair.h \
-  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/15.2.1/bits/stl_vector.h \
-  /usr/include/c++/15.2.1/bits/streambuf.tcc \
-  /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
-  /usr/include/c++/15.2.1/bits/stringfwd.h \
-  /usr/include/c++/15.2.1/bits/utility.h \
-  /usr/include/c++/15.2.1/bits/vector.tcc \
-  /usr/include/c++/15.2.1/bits/version.h \
-  /usr/include/c++/15.2.1/cctype \
-  /usr/include/c++/15.2.1/cerrno \
-  /usr/include/c++/15.2.1/clocale \
-  /usr/include/c++/15.2.1/concepts \
-  /usr/include/c++/15.2.1/cstdio \
-  /usr/include/c++/15.2.1/cstdlib \
-  /usr/include/c++/15.2.1/cwchar \
-  /usr/include/c++/15.2.1/cwctype \
-  /usr/include/c++/15.2.1/debug/assertions.h \
-  /usr/include/c++/15.2.1/debug/debug.h \
-  /usr/include/c++/15.2.1/exception \
-  /usr/include/c++/15.2.1/ext/alloc_traits.h \
-  /usr/include/c++/15.2.1/ext/atomicity.h \
-  /usr/include/c++/15.2.1/ext/numeric_traits.h \
-  /usr/include/c++/15.2.1/ext/string_conversions.h \
-  /usr/include/c++/15.2.1/ext/type_traits.h \
-  /usr/include/c++/15.2.1/initializer_list \
-  /usr/include/c++/15.2.1/ios \
-  /usr/include/c++/15.2.1/iosfwd \
-  /usr/include/c++/15.2.1/iostream \
-  /usr/include/c++/15.2.1/istream \
-  /usr/include/c++/15.2.1/new \
-  /usr/include/c++/15.2.1/ostream \
-  /usr/include/c++/15.2.1/stdexcept \
-  /usr/include/c++/15.2.1/stdlib.h \
-  /usr/include/c++/15.2.1/streambuf \
-  /usr/include/c++/15.2.1/string \
-  /usr/include/c++/15.2.1/system_error \
-  /usr/include/c++/15.2.1/type_traits \
-  /usr/include/c++/15.2.1/typeinfo \
-  /usr/include/c++/15.2.1/vector \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/16.1.1/backward/binders.h \
+  /usr/include/c++/16.1.1/bit \
+  /usr/include/c++/16.1.1/bits/alloc_traits.h \
+  /usr/include/c++/16.1.1/bits/allocator.h \
+  /usr/include/c++/16.1.1/bits/basic_ios.h \
+  /usr/include/c++/16.1.1/bits/basic_ios.tcc \
+  /usr/include/c++/16.1.1/bits/basic_string.h \
+  /usr/include/c++/16.1.1/bits/basic_string.tcc \
+  /usr/include/c++/16.1.1/bits/char_traits.h \
+  /usr/include/c++/16.1.1/bits/charconv.h \
+  /usr/include/c++/16.1.1/bits/concept_check.h \
+  /usr/include/c++/16.1.1/bits/cpp_type_traits.h \
+  /usr/include/c++/16.1.1/bits/cxxabi_forced.h \
+  /usr/include/c++/16.1.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/16.1.1/bits/erase_if.h \
+  /usr/include/c++/16.1.1/bits/exception.h \
+  /usr/include/c++/16.1.1/bits/exception_defines.h \
+  /usr/include/c++/16.1.1/bits/exception_ptr.h \
+  /usr/include/c++/16.1.1/bits/functexcept.h \
+  /usr/include/c++/16.1.1/bits/functional_hash.h \
+  /usr/include/c++/16.1.1/bits/hash_bytes.h \
+  /usr/include/c++/16.1.1/bits/ios_base.h \
+  /usr/include/c++/16.1.1/bits/istream.tcc \
+  /usr/include/c++/16.1.1/bits/locale_classes.h \
+  /usr/include/c++/16.1.1/bits/locale_classes.tcc \
+  /usr/include/c++/16.1.1/bits/locale_facets.h \
+  /usr/include/c++/16.1.1/bits/locale_facets.tcc \
+  /usr/include/c++/16.1.1/bits/localefwd.h \
+  /usr/include/c++/16.1.1/bits/memoryfwd.h \
+  /usr/include/c++/16.1.1/bits/move.h \
+  /usr/include/c++/16.1.1/bits/nested_exception.h \
+  /usr/include/c++/16.1.1/bits/new_allocator.h \
+  /usr/include/c++/16.1.1/bits/new_except.h \
+  /usr/include/c++/16.1.1/bits/new_throw.h \
+  /usr/include/c++/16.1.1/bits/ostream.h \
+  /usr/include/c++/16.1.1/bits/ostream.tcc \
+  /usr/include/c++/16.1.1/bits/ostream_insert.h \
+  /usr/include/c++/16.1.1/bits/ostream_print.h \
+  /usr/include/c++/16.1.1/bits/postypes.h \
+  /usr/include/c++/16.1.1/bits/predefined_ops.h \
+  /usr/include/c++/16.1.1/bits/ptr_traits.h \
+  /usr/include/c++/16.1.1/bits/range_access.h \
+  /usr/include/c++/16.1.1/bits/requires_hosted.h \
+  /usr/include/c++/16.1.1/bits/std_abs.h \
+  /usr/include/c++/16.1.1/bits/stdexcept_except.h \
+  /usr/include/c++/16.1.1/bits/stdexcept_throw.h \
+  /usr/include/c++/16.1.1/bits/stdexcept_throwfwd.h \
+  /usr/include/c++/16.1.1/bits/stl_algobase.h \
+  /usr/include/c++/16.1.1/bits/stl_bvector.h \
+  /usr/include/c++/16.1.1/bits/stl_construct.h \
+  /usr/include/c++/16.1.1/bits/stl_function.h \
+  /usr/include/c++/16.1.1/bits/stl_iterator.h \
+  /usr/include/c++/16.1.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/16.1.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/16.1.1/bits/stl_pair.h \
+  /usr/include/c++/16.1.1/bits/stl_uninitialized.h \
+  /usr/include/c++/16.1.1/bits/stl_vector.h \
+  /usr/include/c++/16.1.1/bits/streambuf.tcc \
+  /usr/include/c++/16.1.1/bits/streambuf_iterator.h \
+  /usr/include/c++/16.1.1/bits/stringfwd.h \
+  /usr/include/c++/16.1.1/bits/utility.h \
+  /usr/include/c++/16.1.1/bits/vector.tcc \
+  /usr/include/c++/16.1.1/bits/version.h \
+  /usr/include/c++/16.1.1/cctype \
+  /usr/include/c++/16.1.1/cerrno \
+  /usr/include/c++/16.1.1/clocale \
+  /usr/include/c++/16.1.1/concepts \
+  /usr/include/c++/16.1.1/cstdio \
+  /usr/include/c++/16.1.1/cstdlib \
+  /usr/include/c++/16.1.1/cwchar \
+  /usr/include/c++/16.1.1/cwctype \
+  /usr/include/c++/16.1.1/debug/assertions.h \
+  /usr/include/c++/16.1.1/debug/debug.h \
+  /usr/include/c++/16.1.1/exception \
+  /usr/include/c++/16.1.1/ext/alloc_traits.h \
+  /usr/include/c++/16.1.1/ext/atomicity.h \
+  /usr/include/c++/16.1.1/ext/numeric_traits.h \
+  /usr/include/c++/16.1.1/ext/string_conversions.h \
+  /usr/include/c++/16.1.1/ext/type_traits.h \
+  /usr/include/c++/16.1.1/initializer_list \
+  /usr/include/c++/16.1.1/ios \
+  /usr/include/c++/16.1.1/iosfwd \
+  /usr/include/c++/16.1.1/iostream \
+  /usr/include/c++/16.1.1/istream \
+  /usr/include/c++/16.1.1/new \
+  /usr/include/c++/16.1.1/ostream \
+  /usr/include/c++/16.1.1/stdexcept \
+  /usr/include/c++/16.1.1/stdlib.h \
+  /usr/include/c++/16.1.1/streambuf \
+  /usr/include/c++/16.1.1/string \
+  /usr/include/c++/16.1.1/system_error \
+  /usr/include/c++/16.1.1/type_traits \
+  /usr/include/c++/16.1.1/typeinfo \
+  /usr/include/c++/16.1.1/vector \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -724,22 +741,24 @@ CMakeFiles/main.dir/main.cpp.o: /home/greys/ai/test_Whis+Lam/main.cpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h
 
 main: /usr/lib/Scrt1.o \
   /usr/lib/crti.o \
   /usr/lib/crtn.o \
+  /usr/lib/libatomic.so \
+  /usr/lib/libatomic_asneeded.so \
   /usr/lib/libc.so \
   /usr/lib/libgcc_s.so \
   /usr/lib/libgcc_s.so.1 \
   /usr/lib/libm.so \
   /usr/lib/libstdc++.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a \
   /usr/lib/ld-linux-x86-64.so.2 \
   /usr/lib/libasound.so \
   /usr/lib/libc.so.6 \
@@ -766,111 +785,101 @@ bin/libllama.so.0.0.7693:
 
 CMakeFiles/main.dir/main.cpp.o:
 
+CMakeFiles/main.dir/home/greys/ai/wisper_my/my_whisper.cpp.o:
+
 CMakeFiles/main.dir/home/greys/ai/llama_my/my_llama.cpp.o:
 
 /usr/lib/libmvec.so.1:
 
 /usr/lib/libm.so.6:
 
-/usr/lib/libc_nonshared.a:
-
-/usr/lib/libc.so.6:
-
 /usr/lib/libasound.so:
 
 /usr/lib/ld-linux-x86-64.so.2:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
-
-/usr/lib/libm.so:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o:
 
 /usr/lib/libgcc_s.so.1:
 
 /usr/lib/libgcc_s.so:
 
+/usr/lib/libatomic.so:
+
+/usr/lib/crtn.o:
+
 /home/greys/ai/test_Whis+Lam/main.cpp:
 
 /usr/include/unistd.h:
 
-/usr/include/sys/poll.h:
+/usr/include/string.h:
 
-/usr/include/gnu/stubs-64.h:
+whisper_lib/src/libwhisper.so.1.8.4:
 
-/usr/include/c++/15.2.1/bits/requires_hosted.h:
+/usr/include/poll.h:
 
-/usr/include/bits/types/error_t.h:
+/usr/include/c++/16.1.1/bits/requires_hosted.h:
 
-/usr/include/c++/15.2.1/bits/refwrap.h:
+/usr/include/bits/types/struct_timespec.h:
 
-/usr/include/c++/15.2.1/bits/postypes.h:
+/usr/include/alsa/seqmid.h:
 
-/usr/include/c++/15.2.1/bits/ostream_insert.h:
+/usr/include/c++/16.1.1/bits/range_access.h:
 
-/usr/include/c++/15.2.1/bits/ptr_traits.h:
+/usr/include/c++/16.1.1/bits/predefined_ops.h:
 
-/home/greys/ai/llama.cpp/ggml/include/ggml-alloc.h:
+/usr/include/bits/waitflags.h:
 
-/usr/include/c++/15.2.1/bits/nested_exception.h:
+/usr/include/ctype.h:
 
-/usr/include/c++/15.2.1/bits/stringfwd.h:
+/usr/include/c++/16.1.1/bits/new_allocator.h:
 
-/usr/include/c++/15.2.1/bits/memoryfwd.h:
+/usr/include/bits/types/__sigset_t.h:
 
-/usr/include/bits/types/wint_t.h:
+/usr/include/c++/16.1.1/bits/localefwd.h:
 
-/usr/include/c++/15.2.1/cwchar:
+/usr/include/c++/16.1.1/bits/locale_facets.tcc:
 
-/usr/include/c++/15.2.1/bits/locale_facets.h:
+/usr/include/c++/16.1.1/bits/locale_facets.h:
 
-/usr/include/c++/15.2.1/ext/string_conversions.h:
+/usr/lib/libm.so:
 
-/usr/include/c++/15.2.1/cstdio:
+/usr/include/c++/16.1.1/bits/ostream_print.h:
 
-/usr/include/assert.h:
+/usr/include/c++/16.1.1/bits/locale_classes.tcc:
 
-/usr/include/bits/stat.h:
+/usr/include/bits/types/clock_t.h:
 
-/usr/include/c++/15.2.1/bits/invoke.h:
+/usr/include/bits/types/__fpos_t.h:
 
-/usr/include/bits/endian.h:
+/usr/include/c++/16.1.1/bits/istream.tcc:
 
-/usr/include/c++/15.2.1/bits/stl_function.h:
+/usr/include/bits/struct_mutex.h:
 
-/usr/include/c++/15.2.1/bits/exception_ptr.h:
+/usr/include/c++/16.1.1/bits/hash_bytes.h:
 
-/usr/lib/libc.so:
+/usr/include/c++/16.1.1/bits/exception.h:
 
-/usr/include/bits/pthreadtypes.h:
+/usr/include/c++/16.1.1/bits/concept_check.h:
 
-/usr/include/c++/15.2.1/bits/exception.h:
+/usr/lib/libc_nonshared.a:
 
-/usr/include/c++/15.2.1/bits/cxxabi_init_exception.h:
+/usr/include/c++/16.1.1/istream:
 
-/home/greys/ai/whisper.cpp/include/whisper.h:
+/usr/include/c++/16.1.1/bits/basic_string.h:
 
-/usr/include/c++/15.2.1/bits/cxxabi_forced.h:
+/usr/include/c++/16.1.1/bits/basic_ios.tcc:
 
-/usr/include/c++/15.2.1/bits/concept_check.h:
+/usr/lib/libgomp.so.1:
 
-/usr/include/c++/15.2.1/bits/basic_ios.tcc:
+/usr/include/c++/16.1.1/bits/nested_exception.h:
 
-/usr/include/c++/15.2.1/cerrno:
+/usr/include/c++/16.1.1/bits/allocator.h:
 
-/usr/include/c++/15.2.1/bits/localefwd.h:
-
-/usr/include/c++/15.2.1/bits/alloc_traits.h:
-
-/usr/include/asm/bitsperlong.h:
-
-/usr/include/c++/15.2.1/bits/stl_bvector.h:
-
-/usr/include/c++/15.2.1/bits/hash_bytes.h:
-
-/home/greys/ai/llama_my/my_llama.h:
+/usr/include/c++/16.1.1/backward/binders.h:
 
 /usr/include/bits/wctype-wchar.h:
 
@@ -880,51 +889,29 @@ CMakeFiles/main.dir/home/greys/ai/llama_my/my_llama.cpp.o:
 
 /usr/lib/crti.o:
 
+/usr/include/c++/16.1.1/bits/stl_bvector.h:
+
 /usr/include/alsa/output.h:
 
-/usr/include/c++/15.2.1/bits/ios_base.h:
-
-/usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/15.2.1/cctype:
-
-/usr/include/c++/15.2.1/backward/binders.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/c++/15.2.1/bits/char_traits.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/include/c++/15.2.1/ext/atomicity.h:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/alsa/seqmid.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/c++/15.2.1/bits/stl_pair.h:
-
-/usr/include/ctype.h:
-
-/usr/include/bits/types/struct_sched_param.h:
-
-/usr/include/alsa/asoundlib.h:
-
-/usr/include/c++/15.2.1/bits/functexcept.h:
-
-/usr/include/c++/15.2.1/streambuf:
-
-/usr/include/c++/15.2.1/bits/predefined_ops.h:
+/usr/include/c++/16.1.1/bits/ostream.tcc:
 
 /usr/include/bits/types/struct_itimerspec.h:
 
 /usr/include/bits/struct_rwlock.h:
 
-/usr/include/alloca.h:
+/usr/include/bits/types/wint_t.h:
 
-/usr/include/c++/15.2.1/bits/locale_classes.h:
+/usr/include/bits/types/timer_t.h:
+
+/usr/include/c++/16.1.1/bits/std_abs.h:
+
+/usr/include/c++/16.1.1/bits/locale_classes.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+/usr/include/bits/types/struct_sched_param.h:
+
+/usr/include/alsa/asoundlib.h:
 
 /usr/include/bits/types/sigset_t.h:
 
@@ -934,57 +921,41 @@ CMakeFiles/main.dir/home/greys/ai/llama_my/my_llama.cpp.o:
 
 /usr/include/bits/types/locale_t.h:
 
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
 whisper_lib/ggml/src/libggml.so.0.9.8:
 
 /usr/include/bits/floatn-common.h:
 
-/usr/include/c++/15.2.1/bits/basic_string.tcc:
-
-/usr/include/c++/15.2.1/stdlib.h:
-
 /usr/include/bits/endianness.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
 /usr/include/bits/typesizes.h:
 
-/usr/include/c++/15.2.1/bits/streambuf.tcc:
-
 /usr/include/bits/cpu-set.h:
-
-/usr/include/c++/15.2.1/bits/cpp_type_traits.h:
-
-/usr/include/c++/15.2.1/bits/istream.tcc:
-
-/usr/include/c++/15.2.1/bits/stl_construct.h:
-
-/usr/include/bits/struct_mutex.h:
 
 /usr/include/bits/time64.h:
 
 /usr/include/bits/stdlib-float.h:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
-
 /usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/16.1.1/initializer_list:
 
 /usr/include/bits/errno.h:
 
-/usr/include/bits/timex.h:
+/usr/include/c++/16.1.1/bits/charconv.h:
+
+/usr/include/c++/16.1.1/ext/string_conversions.h:
+
+/usr/include/c++/16.1.1/bits/cpp_type_traits.h:
 
 /usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/bits/posix_opt.h:
 
-/usr/include/bits/locale.h:
+/usr/include/bits/wordsize.h:
+
+/usr/include/stdio.h:
 
 /usr/include/asm-generic/posix_types.h:
-
-/usr/include/c++/15.2.1/bits/locale_classes.tcc:
 
 /usr/include/stdc-predef.h:
 
@@ -992,13 +963,17 @@ whisper_lib/ggml/src/libggml.so.0.9.8:
 
 /usr/include/bits/select.h:
 
+/usr/include/c++/16.1.1/bits/ostream.h:
+
+/usr/include/c++/16.1.1/ostream:
+
+/usr/include/bits/types/clockid_t.h:
+
+/usr/include/bits/stdint-intn.h:
+
 /usr/include/bits/types/__fpos64_t.h:
 
-/usr/include/c++/15.2.1/bits/allocator.h:
-
 /usr/include/bits/stdio_lim.h:
-
-/usr/include/c++/15.2.1/bits/locale_facets.tcc:
 
 /usr/include/asm/posix_types_64.h:
 
@@ -1006,53 +981,79 @@ whisper_lib/ggml/src/libggml.so.0.9.8:
 
 /usr/include/asm/posix_types.h:
 
-/usr/include/c++/15.2.1/bits/charconv.h:
+/home/greys/ai/llama.cpp/ggml/include/ggml-alloc.h:
 
-/usr/include/c++/15.2.1/bits/std_abs.h:
+/usr/include/alloca.h:
 
-/usr/include/linux/types.h:
+/home/greys/ai/llama_my/my_llama.h:
+
+/usr/include/asm-generic/errno.h:
 
 /usr/include/alsa/hwdep.h:
 
 /usr/include/bits/byteswap.h:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
-
 /home/greys/ai/llama.cpp/include/llama.h:
 
 /usr/include/linux/errno.h:
+
+/usr/include/c++/16.1.1/bits/cxxabi_forced.h:
+
+/usr/include/c++/16.1.1/bits/move.h:
+
+/usr/include/linux/falloc.h:
+
+/usr/include/bits/unistd_ext.h:
 
 /usr/include/bits/types/__mbstate_t.h:
 
 /home/greys/ai/llama_my/my_llama.cpp:
 
+/usr/include/c++/16.1.1/bits/ios_base.h:
+
 /home/greys/ai/llama.cpp/ggml/include/ggml-cpu.h:
+
+/usr/include/c++/16.1.1/bits/basic_string.tcc:
 
 /usr/include/bits/libc-header-start.h:
 
-/usr/include/alsa/mixer.h:
-
-/usr/include/c++/15.2.1/ostream:
-
-/usr/include/bits/uintn-identity.h:
-
-/home/greys/ai/llama.cpp/ggml/include/ggml-opt.h:
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
 /home/greys/ai/llama.cpp/ggml/include/ggml.h:
 
 /usr/include/asm/types.h:
 
+/usr/include/c++/16.1.1/bits/functional_hash.h:
+
 /usr/include/bits/stdint-least.h:
 
-/usr/include/c++/15.2.1/bit:
-
-/usr/include/c++/15.2.1/bits/basic_ios.h:
+/usr/include/c++/16.1.1/bits/exception_ptr.h:
 
 /usr/include/bits/floatn.h:
 
+/usr/include/c++/16.1.1/bits/alloc_traits.h:
+
+/usr/include/c++/16.1.1/bits/new_except.h:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/asm/bitsperlong.h:
+
 /usr/include/bits/long-double.h:
 
+/usr/include/c++/16.1.1/ext/numeric_traits.h:
+
 /usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/16.1.1/string:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/usr/include/strings.h:
+
+/usr/include/c++/16.1.1/bits/exception_defines.h:
+
+/usr/include/c++/16.1.1/new:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
@@ -1060,181 +1061,205 @@ whisper_lib/ggml/src/libggml.so.0.9.8:
 
 /usr/include/fcntl.h:
 
-/usr/include/bits/waitstatus.h:
+/usr/lib/libc.so:
 
-/usr/include/bits/wchar.h:
+/usr/include/bits/pthreadtypes.h:
 
-/usr/include/bits/types/struct___jmp_buf_tag.h:
+/usr/include/c++/16.1.1/vector:
 
 /usr/include/bits/setjmp.h:
 
-/usr/include/bits/types/clockid_t.h:
+/usr/include/c++/16.1.1/ext/type_traits.h:
 
-/usr/include/bits/stdint-intn.h:
+/usr/include/c++/16.1.1/bits/cxxabi_init_exception.h:
 
-/usr/include/linux/close_range.h:
+/usr/include/c++/16.1.1/concepts:
 
-/usr/lib/crtn.o:
+/usr/include/c++/16.1.1/bit:
 
-/usr/include/c++/15.2.1/bits/functional_hash.h:
+/usr/include/bits/types/error_t.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
-/usr/include/c++/15.2.1/bits/stl_algobase.h:
-
-/usr/include/c++/15.2.1/cstdlib:
-
-/usr/include/bits/stdio.h:
-
-/usr/include/c++/15.2.1/debug/assertions.h:
-
-/usr/include/c++/15.2.1/new:
-
-/usr/lib/libgomp.so.1:
-
-/usr/include/c++/15.2.1/bits/new_allocator.h:
-
-/usr/include/asm/errno.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/c++/15.2.1/system_error:
-
-/usr/include/bits/stdlib-bsearch.h:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/c++/15.2.1/bits/range_access.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/bits/struct_stat.h:
-
-/usr/include/c++/15.2.1/ios:
-
-/usr/include/bits/thread-shared-types.h:
-
-/usr/include/c++/15.2.1/debug/debug.h:
-
-/usr/include/c++/15.2.1/type_traits:
-
-/usr/include/c++/15.2.1/bits/move.h:
-
-/usr/include/bits/types.h:
+/usr/include/bits/types/__FILE.h:
 
 /usr/include/features.h:
 
 /usr/include/bits/sched.h:
 
-/usr/include/bits/types/__FILE.h:
+/usr/include/asm/errno.h:
 
-/usr/include/bits/types/__locale_t.h:
+/usr/include/bits/stdint-uintn.h:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+/usr/include/bits/stdlib-bsearch.h:
 
-CMakeFiles/main.dir/home/greys/ai/wisper_my/my_whisper.cpp.o:
+/usr/include/c++/16.1.1/bits/char_traits.h:
 
-/usr/include/c++/15.2.1/bits/basic_string.h:
+/usr/include/bits/types/time_t.h:
 
-/usr/include/c++/15.2.1/bits/stl_iterator.h:
+/usr/include/c++/16.1.1/bits/ostream_insert.h:
 
-/usr/include/bits/types/struct_FILE.h:
+/usr/include/bits/struct_stat.h:
 
-/usr/include/bits/environments.h:
+/usr/include/bits/endian.h:
 
-/usr/include/c++/15.2.1/bits/stl_iterator_base_types.h:
+/usr/include/bits/types.h:
 
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/15.2.1/bits/stl_vector.h:
-
-/usr/include/c++/15.2.1/bits/streambuf_iterator.h:
-
-/usr/include/c++/15.2.1/bits/vector.tcc:
-
-/usr/include/c++/15.2.1/bits/ostream.tcc:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
-
-/usr/include/errno.h:
-
-/usr/include/bits/getopt_posix.h:
-
-/usr/include/c++/15.2.1/bits/version.h:
-
-/usr/include/c++/15.2.1/clocale:
-
-/usr/include/c++/15.2.1/concepts:
-
-/usr/include/wchar.h:
-
-/usr/include/alsa/input.h:
-
-/usr/include/c++/15.2.1/cwctype:
-
-/usr/include/c++/15.2.1/istream:
-
-/usr/include/bits/fcntl-linux.h:
-
-/usr/include/strings.h:
-
-/usr/include/c++/15.2.1/ext/type_traits.h:
-
-/usr/include/c++/15.2.1/initializer_list:
-
-/usr/include/c++/15.2.1/iostream:
-
-/usr/include/c++/15.2.1/stdexcept:
-
-/usr/include/c++/15.2.1/bits/exception_defines.h:
-
-/usr/include/c++/15.2.1/vector:
-
-/usr/include/c++/15.2.1/string:
-
-/usr/include/sys/cdefs.h:
-
-/usr/include/c++/15.2.1/typeinfo:
-
-/usr/include/stdlib.h:
-
-/usr/include/bits/types/__sigset_t.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
-
-/usr/include/features-time64.h:
-
-whisper_lib/src/libwhisper.so.1.8.4:
-
-/usr/include/poll.h:
+/usr/include/linux/posix_types.h:
 
 /usr/include/bits/types/FILE.h:
 
-/usr/include/c++/15.2.1/bits/utility.h:
+/usr/include/bits/types/__locale_t.h:
 
-/usr/include/linux/posix_types.h:
+/usr/include/c++/16.1.1/bits/stdexcept_except.h:
+
+/usr/include/c++/16.1.1/bits/stdexcept_throwfwd.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/c++/16.1.1/bits/stl_construct.h:
+
+/usr/include/linux/openat2.h:
+
+/usr/include/c++/16.1.1/bits/version.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/c++/16.1.1/bits/stl_function.h:
+
+/usr/include/c++/16.1.1/bits/stl_iterator.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/home/greys/ai/llama.cpp/ggml/include/ggml-opt.h:
+
+/usr/include/c++/16.1.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/16.1.1/cstdlib:
+
+/usr/include/alsa/ump.h:
+
+/usr/include/c++/16.1.1/bits/stl_pair.h:
+
+/usr/include/bits/openat2.h:
+
+/usr/include/c++/16.1.1/bits/stl_uninitialized.h:
+
+/usr/include/c++/16.1.1/bits/stl_vector.h:
+
+/usr/include/c++/16.1.1/bits/streambuf.tcc:
+
+/usr/include/c++/16.1.1/bits/streambuf_iterator.h:
+
+/usr/include/c++/16.1.1/bits/stringfwd.h:
+
+/usr/include/c++/16.1.1/bits/vector.tcc:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/include/linux/close_range.h:
+
+/usr/include/c++/16.1.1/bits/ptr_traits.h:
+
+/usr/include/c++/16.1.1/cerrno:
+
+/usr/include/c++/16.1.1/clocale:
+
+/usr/include/bits/cloexec.h:
+
+/usr/lib/libc.so.6:
+
+/usr/include/c++/16.1.1/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/16.1.1/cstdio:
+
+/usr/include/c++/16.1.1/cwchar:
+
+/usr/include/c++/16.1.1/type_traits:
+
+/usr/include/c++/16.1.1/exception:
+
+/usr/include/c++/16.1.1/stdexcept:
+
+/usr/include/alsa/mixer.h:
+
+/usr/include/c++/16.1.1/cwctype:
+
+/usr/include/alsa/seq_event.h:
+
+/usr/include/c++/16.1.1/debug/assertions.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/c++/16.1.1/debug/debug.h:
+
+/usr/include/c++/16.1.1/ext/atomicity.h:
+
+/usr/include/c++/16.1.1/ios:
+
+/usr/include/bits/timex.h:
+
+/usr/include/c++/16.1.1/bits/functexcept.h:
+
+/usr/include/c++/16.1.1/iosfwd:
+
+/usr/include/c++/16.1.1/bits/stl_algobase.h:
+
+/usr/include/c++/16.1.1/iostream:
+
+/usr/include/pthread.h:
+
+/usr/include/c++/16.1.1/streambuf:
+
+/usr/include/c++/16.1.1/system_error:
+
+/usr/include/c++/16.1.1/typeinfo:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/alsa/ump_msg.h:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/bits/getopt_posix.h:
+
+/usr/include/errno.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/gnu/stubs-64.h:
 
 /usr/include/linux/sched/types.h:
 
 /usr/include/linux/stddef.h:
 
+/usr/include/linux/types.h:
+
 /usr/lib/libstdc++.so:
 
 /usr/include/locale.h:
-
-/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
-
-/usr/include/pthread.h:
 
 /usr/include/wctype.h:
 
@@ -1242,43 +1267,57 @@ whisper_lib/src/libwhisper.so.1.8.4:
 
 /usr/include/endian.h:
 
+/usr/include/c++/16.1.1/bits/basic_ios.h:
+
+/usr/include/c++/16.1.1/bits/new_throw.h:
+
 /usr/include/stdint.h:
 
-/usr/include/bits/wordsize.h:
+/usr/include/stdlib.h:
 
-/usr/include/stdio.h:
+/usr/include/sys/cdefs.h:
 
-/usr/include/sys/select.h:
+/usr/include/c++/16.1.1/bits/stdexcept_throw.h:
 
 /usr/include/sys/single_threaded.h:
 
-/usr/include/time.h:
+/usr/include/wchar.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
+/usr/include/alsa/input.h:
 
-/usr/include/linux/falloc.h:
+/usr/include/c++/16.1.1/cctype:
 
-/usr/include/c++/15.2.1/ext/alloc_traits.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h:
 
-/usr/include/bits/unistd_ext.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h:
+
+/usr/lib/Scrt1.o:
+
+/usr/include/alsa/seq_midi_event.h:
+
+/usr/include/c++/16.1.1/ext/alloc_traits.h:
 
 /home/greys/ai/wisper_my/my_whisper.cpp:
 
-/usr/include/bits/types/struct_timeval.h:
+/home/greys/ai/whisper.cpp/include/whisper.h:
 
-/usr/include/c++/15.2.1/iosfwd:
+/usr/lib/libatomic_asneeded.so:
+
+/usr/include/bits/types/struct_timeval.h:
 
 /home/greys/ai/wisper_my/my_whisper.h:
 
 /usr/include/alsa/asoundef.h:
 
+/usr/include/c++/16.1.1/bits/erase_if.h:
+
 /usr/include/alsa/rawmidi.h:
 
 /usr/include/alsa/conf.h:
-
-/usr/include/c++/15.2.1/bits/ostream.h:
 
 /usr/include/alsa/pcm.h:
 
@@ -1296,38 +1335,34 @@ whisper_lib/src/libwhisper.so.1.8.4:
 
 /usr/include/asm-generic/types.h:
 
-/usr/include/c++/15.2.1/exception:
-
 /usr/include/alsa/global.h:
 
-/usr/include/alsa/seq_event.h:
-
-/usr/lib/Scrt1.o:
-
-/usr/include/alsa/seq_midi_event.h:
+/usr/include/c++/16.1.1/bits/utility.h:
 
 /usr/include/alsa/timer.h:
 
-/usr/include/string.h:
+/usr/include/assert.h:
 
-/usr/include/alsa/ump.h:
+/usr/include/bits/stat.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
+/usr/include/bits/types/struct_FILE.h:
 
-/usr/include/asm-generic/int-ll64.h:
+/usr/include/bits/environments.h:
 
-/usr/include/alsa/ump_msg.h:
+/usr/include/bits/fcntl-linux.h:
+
+/usr/include/c++/16.1.1/bits/postypes.h:
+
+/usr/include/c++/16.1.1/bits/memoryfwd.h:
 
 /usr/include/bits/fcntl.h:
 
-/usr/include/c++/15.2.1/ext/numeric_traits.h:
-
 /usr/include/bits/getopt_core.h:
-
-/usr/include/bits/openat2.h:
 
 /usr/include/bits/poll.h:
 
 /usr/include/bits/types/struct_iovec.h:
 
-/usr/include/linux/openat2.h:
+/usr/include/sys/poll.h:
+
+/usr/include/c++/16.1.1/stdlib.h:

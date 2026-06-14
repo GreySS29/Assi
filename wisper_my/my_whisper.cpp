@@ -1,7 +1,7 @@
 #include "my_whisper.h" 
 
 
-    VoiceOperate::VoiceOperate() {
+    VoiceOperate::VoiceOperate(const char* input) {
         cparams = whisper_context_default_params();
         whisper_P_ctx=whisper_init_from_file_with_params("../../whisper.cpp/models/ggml-small.en.bin", cparams);
 
@@ -11,7 +11,7 @@
 
         int rc = snd_pcm_open(
         &capture_handle,
-        "plughw:3,0",
+        input,
         SND_PCM_STREAM_CAPTURE,
         0
         );

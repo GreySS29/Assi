@@ -5,7 +5,7 @@ int main ()
     try
     {
     
-    
+    Llama llama;
     string input;
 
     while (true)

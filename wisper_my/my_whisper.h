@@ -8,7 +8,7 @@
 class VoiceOperate {
 
     public:
-    VoiceOperate();
+    VoiceOperate(const char*);
     ~VoiceOperate();
     std::vector<float> capture_audio(int duration_sec, int sample_rate);
     std::vector<float> resample_audio(const std::vector<float>& input,int input_rate,int output_rate);
