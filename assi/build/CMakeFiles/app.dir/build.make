@@ -76,7 +76,7 @@ CMakeFiles/app.dir/main.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/main.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/assi/main.cpp
 CMakeFiles/app.dir/main.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/main.cpp.o -MF CMakeFiles/app.dir/main.cpp.o.d -o CMakeFiles/app.dir/main.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/assi/main.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/main.cpp.o -MF CMakeFiles/app.dir/main.cpp.o.d -o CMakeFiles/app.dir/main.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/assi/main.cpp
 
 CMakeFiles/app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/main.cpp.i"
@@ -90,7 +90,7 @@ CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whispe
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp.o -MF CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp.o.d -o CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp.o -MF CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp.o.d -o CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp
 
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp.i"
@@ -104,7 +104,7 @@ CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.c
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp.o -MF CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp.o.d -o CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp.o -MF CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp.o.d -o CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp
 
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.cpp.i"
@@ -118,7 +118,7 @@ CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.c
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp.o -MF CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp.o.d -o CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp.o -MF CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp.o.d -o CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp
 
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp.i"
@@ -132,7 +132,7 @@ CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.o
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.o -MF CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.o.d -o CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.o -MF CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.o.d -o CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp
 
 CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp.i"

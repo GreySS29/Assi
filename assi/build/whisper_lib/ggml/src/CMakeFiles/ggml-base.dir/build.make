@@ -76,7 +76,7 @@ whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o: whisper_lib/ggml/src/CMa
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o: /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml.c
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o: whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o -MF CMakeFiles/ggml-base.dir/ggml.c.o.d -o CMakeFiles/ggml-base.dir/ggml.c.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml.c
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o -MF CMakeFiles/ggml-base.dir/ggml.c.o.d -o CMakeFiles/ggml-base.dir/ggml.c.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml.c
 
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ggml-base.dir/ggml.c.i"
@@ -90,7 +90,7 @@ whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o: whisper_lib/ggml/src/C
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml.cpp
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o: whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o -MF CMakeFiles/ggml-base.dir/ggml.cpp.o.d -o CMakeFiles/ggml-base.dir/ggml.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o -MF CMakeFiles/ggml-base.dir/ggml.cpp.o.d -o CMakeFiles/ggml-base.dir/ggml.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml.cpp
 
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-base.dir/ggml.cpp.i"
@@ -104,7 +104,7 @@ whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o: whisper_lib/ggml/s
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o: /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-alloc.c
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o: whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o -MF CMakeFiles/ggml-base.dir/ggml-alloc.c.o.d -o CMakeFiles/ggml-base.dir/ggml-alloc.c.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-alloc.c
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o -MF CMakeFiles/ggml-base.dir/ggml-alloc.c.o.d -o CMakeFiles/ggml-base.dir/ggml-alloc.c.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-alloc.c
 
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ggml-base.dir/ggml-alloc.c.i"
@@ -118,7 +118,7 @@ whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o: whisper_lib/gg
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-backend.cpp
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o: whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -MF CMakeFiles/ggml-base.dir/ggml-backend.cpp.o.d -o CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-backend.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -MF CMakeFiles/ggml-base.dir/ggml-backend.cpp.o.d -o CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-backend.cpp
 
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-base.dir/ggml-backend.cpp.i"
@@ -132,7 +132,7 @@ whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o: whisper_lib/ggml/s
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-opt.cpp
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o: whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -MF CMakeFiles/ggml-base.dir/ggml-opt.cpp.o.d -o CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-opt.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -MF CMakeFiles/ggml-base.dir/ggml-opt.cpp.o.d -o CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-opt.cpp
 
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-base.dir/ggml-opt.cpp.i"
@@ -146,7 +146,7 @@ whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o: whisper_lib/
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-threading.cpp
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o: whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -MF CMakeFiles/ggml-base.dir/ggml-threading.cpp.o.d -o CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-threading.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -MF CMakeFiles/ggml-base.dir/ggml-threading.cpp.o.d -o CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-threading.cpp
 
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-base.dir/ggml-threading.cpp.i"
@@ -160,7 +160,7 @@ whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o: whisper_lib/ggml/
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o: /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-quants.c
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o: whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o -MF CMakeFiles/ggml-base.dir/ggml-quants.c.o.d -o CMakeFiles/ggml-base.dir/ggml-quants.c.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-quants.c
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o -MF CMakeFiles/ggml-base.dir/ggml-quants.c.o.d -o CMakeFiles/ggml-base.dir/ggml-quants.c.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/ggml-quants.c
 
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ggml-base.dir/ggml-quants.c.i"
@@ -174,7 +174,7 @@ whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o: whisper_lib/ggml/src/C
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/gguf.cpp
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o: whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o -MF CMakeFiles/ggml-base.dir/gguf.cpp.o.d -o CMakeFiles/ggml-base.dir/gguf.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/gguf.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/ggml/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o -MF CMakeFiles/ggml-base.dir/gguf.cpp.o.d -o CMakeFiles/ggml-base.dir/gguf.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/gguf.cpp
 
 whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-base.dir/gguf.cpp.i"

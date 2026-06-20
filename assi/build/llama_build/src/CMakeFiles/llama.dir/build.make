@@ -76,7 +76,7 @@ llama_build/src/CMakeFiles/llama.dir/llama.cpp.o: llama_build/src/CMakeFiles/lla
 llama_build/src/CMakeFiles/llama.dir/llama.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama.cpp
 llama_build/src/CMakeFiles/llama.dir/llama.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama.cpp.o -MF CMakeFiles/llama.dir/llama.cpp.o.d -o CMakeFiles/llama.dir/llama.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama.cpp.o -MF CMakeFiles/llama.dir/llama.cpp.o.d -o CMakeFiles/llama.dir/llama.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama.cpp.i"
@@ -90,7 +90,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-adapter.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/llama-adapter.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-adapter.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-adapter.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-adapter.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-adapter.cpp.o -MF CMakeFiles/llama.dir/llama-adapter.cpp.o.d -o CMakeFiles/llama.dir/llama-adapter.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-adapter.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-adapter.cpp.o -MF CMakeFiles/llama.dir/llama-adapter.cpp.o.d -o CMakeFiles/llama.dir/llama-adapter.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-adapter.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-adapter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-adapter.cpp.i"
@@ -104,7 +104,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-arch.cpp.o: llama_build/src/CMakeFile
 llama_build/src/CMakeFiles/llama.dir/llama-arch.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-arch.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-arch.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-arch.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-arch.cpp.o -MF CMakeFiles/llama.dir/llama-arch.cpp.o.d -o CMakeFiles/llama.dir/llama-arch.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-arch.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-arch.cpp.o -MF CMakeFiles/llama.dir/llama-arch.cpp.o.d -o CMakeFiles/llama.dir/llama-arch.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-arch.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-arch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-arch.cpp.i"
@@ -118,7 +118,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-batch.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/llama-batch.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-batch.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-batch.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-batch.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-batch.cpp.o -MF CMakeFiles/llama.dir/llama-batch.cpp.o.d -o CMakeFiles/llama.dir/llama-batch.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-batch.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-batch.cpp.o -MF CMakeFiles/llama.dir/llama-batch.cpp.o.d -o CMakeFiles/llama.dir/llama-batch.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-batch.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-batch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-batch.cpp.i"
@@ -132,7 +132,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-chat.cpp.o: llama_build/src/CMakeFile
 llama_build/src/CMakeFiles/llama.dir/llama-chat.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-chat.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-chat.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-chat.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-chat.cpp.o -MF CMakeFiles/llama.dir/llama-chat.cpp.o.d -o CMakeFiles/llama.dir/llama-chat.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-chat.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-chat.cpp.o -MF CMakeFiles/llama.dir/llama-chat.cpp.o.d -o CMakeFiles/llama.dir/llama-chat.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-chat.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-chat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-chat.cpp.i"
@@ -146,7 +146,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-context.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/llama-context.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-context.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-context.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-context.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-context.cpp.o -MF CMakeFiles/llama.dir/llama-context.cpp.o.d -o CMakeFiles/llama.dir/llama-context.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-context.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-context.cpp.o -MF CMakeFiles/llama.dir/llama-context.cpp.o.d -o CMakeFiles/llama.dir/llama-context.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-context.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-context.cpp.i"
@@ -160,7 +160,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-cparams.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/llama-cparams.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-cparams.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-cparams.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-cparams.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-cparams.cpp.o -MF CMakeFiles/llama.dir/llama-cparams.cpp.o.d -o CMakeFiles/llama.dir/llama-cparams.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-cparams.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-cparams.cpp.o -MF CMakeFiles/llama.dir/llama-cparams.cpp.o.d -o CMakeFiles/llama.dir/llama-cparams.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-cparams.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-cparams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-cparams.cpp.i"
@@ -174,7 +174,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-grammar.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/llama-grammar.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-grammar.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-grammar.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-grammar.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-grammar.cpp.o -MF CMakeFiles/llama.dir/llama-grammar.cpp.o.d -o CMakeFiles/llama.dir/llama-grammar.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-grammar.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-grammar.cpp.o -MF CMakeFiles/llama.dir/llama-grammar.cpp.o.d -o CMakeFiles/llama.dir/llama-grammar.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-grammar.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-grammar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-grammar.cpp.i"
@@ -188,7 +188,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-graph.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/llama-graph.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-graph.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-graph.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-graph.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-graph.cpp.o -MF CMakeFiles/llama.dir/llama-graph.cpp.o.d -o CMakeFiles/llama.dir/llama-graph.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-graph.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-graph.cpp.o -MF CMakeFiles/llama.dir/llama-graph.cpp.o.d -o CMakeFiles/llama.dir/llama-graph.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-graph.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-graph.cpp.i"
@@ -202,7 +202,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-hparams.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/llama-hparams.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-hparams.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-hparams.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-hparams.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-hparams.cpp.o -MF CMakeFiles/llama.dir/llama-hparams.cpp.o.d -o CMakeFiles/llama.dir/llama-hparams.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-hparams.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-hparams.cpp.o -MF CMakeFiles/llama.dir/llama-hparams.cpp.o.d -o CMakeFiles/llama.dir/llama-hparams.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-hparams.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-hparams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-hparams.cpp.i"
@@ -216,7 +216,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-impl.cpp.o: llama_build/src/CMakeFile
 llama_build/src/CMakeFiles/llama.dir/llama-impl.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-impl.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-impl.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-impl.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-impl.cpp.o -MF CMakeFiles/llama.dir/llama-impl.cpp.o.d -o CMakeFiles/llama.dir/llama-impl.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-impl.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-impl.cpp.o -MF CMakeFiles/llama.dir/llama-impl.cpp.o.d -o CMakeFiles/llama.dir/llama-impl.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-impl.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-impl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-impl.cpp.i"
@@ -230,7 +230,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-io.cpp.o: llama_build/src/CMakeFiles/
 llama_build/src/CMakeFiles/llama.dir/llama-io.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-io.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-io.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-io.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-io.cpp.o -MF CMakeFiles/llama.dir/llama-io.cpp.o.d -o CMakeFiles/llama.dir/llama-io.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-io.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-io.cpp.o -MF CMakeFiles/llama.dir/llama-io.cpp.o.d -o CMakeFiles/llama.dir/llama-io.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-io.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-io.cpp.i"
@@ -244,7 +244,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o: llama_build/src/CMake
 llama_build/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-kv-cache.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o -MF CMakeFiles/llama.dir/llama-kv-cache.cpp.o.d -o CMakeFiles/llama.dir/llama-kv-cache.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-kv-cache.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o -MF CMakeFiles/llama.dir/llama-kv-cache.cpp.o.d -o CMakeFiles/llama.dir/llama-kv-cache.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-kv-cache.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-kv-cache.cpp.i"
@@ -258,7 +258,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o: llama_build/src/
 llama_build/src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-kv-cache-iswa.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o -MF CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o.d -o CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-kv-cache-iswa.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o -MF CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o.d -o CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-kv-cache-iswa.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.i"
@@ -272,7 +272,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-memory.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/llama-memory.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-memory.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-memory.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-memory.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-memory.cpp.o -MF CMakeFiles/llama.dir/llama-memory.cpp.o.d -o CMakeFiles/llama.dir/llama-memory.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-memory.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-memory.cpp.o -MF CMakeFiles/llama.dir/llama-memory.cpp.o.d -o CMakeFiles/llama.dir/llama-memory.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-memory.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-memory.cpp.i"
@@ -286,7 +286,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o: llama_build/src/
 llama_build/src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-memory-hybrid.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o -MF CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o.d -o CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-memory-hybrid.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o -MF CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o.d -o CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-memory-hybrid.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-memory-hybrid.cpp.i"
@@ -300,7 +300,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o: llama_build/s
 llama_build/src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-memory-recurrent.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o -MF CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o.d -o CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-memory-recurrent.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o -MF CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o.d -o CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-memory-recurrent.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-memory-recurrent.cpp.i"
@@ -314,7 +314,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-mmap.cpp.o: llama_build/src/CMakeFile
 llama_build/src/CMakeFiles/llama.dir/llama-mmap.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-mmap.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-mmap.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-mmap.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-mmap.cpp.o -MF CMakeFiles/llama.dir/llama-mmap.cpp.o.d -o CMakeFiles/llama.dir/llama-mmap.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-mmap.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-mmap.cpp.o -MF CMakeFiles/llama.dir/llama-mmap.cpp.o.d -o CMakeFiles/llama.dir/llama-mmap.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-mmap.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-mmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-mmap.cpp.i"
@@ -328,7 +328,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-model-loader.cpp.o: llama_build/src/C
 llama_build/src/CMakeFiles/llama.dir/llama-model-loader.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-model-loader.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-model-loader.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-model-loader.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-model-loader.cpp.o -MF CMakeFiles/llama.dir/llama-model-loader.cpp.o.d -o CMakeFiles/llama.dir/llama-model-loader.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-model-loader.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-model-loader.cpp.o -MF CMakeFiles/llama.dir/llama-model-loader.cpp.o.d -o CMakeFiles/llama.dir/llama-model-loader.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-model-loader.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-model-loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-model-loader.cpp.i"
@@ -342,7 +342,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-model-saver.cpp.o: llama_build/src/CM
 llama_build/src/CMakeFiles/llama.dir/llama-model-saver.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-model-saver.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-model-saver.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-model-saver.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-model-saver.cpp.o -MF CMakeFiles/llama.dir/llama-model-saver.cpp.o.d -o CMakeFiles/llama.dir/llama-model-saver.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-model-saver.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-model-saver.cpp.o -MF CMakeFiles/llama.dir/llama-model-saver.cpp.o.d -o CMakeFiles/llama.dir/llama-model-saver.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-model-saver.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-model-saver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-model-saver.cpp.i"
@@ -356,7 +356,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-model.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/llama-model.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-model.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-model.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-model.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-model.cpp.o -MF CMakeFiles/llama.dir/llama-model.cpp.o.d -o CMakeFiles/llama.dir/llama-model.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-model.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-model.cpp.o -MF CMakeFiles/llama.dir/llama-model.cpp.o.d -o CMakeFiles/llama.dir/llama-model.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-model.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-model.cpp.i"
@@ -370,7 +370,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-quant.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/llama-quant.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-quant.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-quant.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-quant.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-quant.cpp.o -MF CMakeFiles/llama.dir/llama-quant.cpp.o.d -o CMakeFiles/llama.dir/llama-quant.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-quant.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-quant.cpp.o -MF CMakeFiles/llama.dir/llama-quant.cpp.o.d -o CMakeFiles/llama.dir/llama-quant.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-quant.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-quant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-quant.cpp.i"
@@ -384,7 +384,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-sampling.cpp.o: llama_build/src/CMake
 llama_build/src/CMakeFiles/llama.dir/llama-sampling.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-sampling.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-sampling.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-sampling.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-sampling.cpp.o -MF CMakeFiles/llama.dir/llama-sampling.cpp.o.d -o CMakeFiles/llama.dir/llama-sampling.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-sampling.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-sampling.cpp.o -MF CMakeFiles/llama.dir/llama-sampling.cpp.o.d -o CMakeFiles/llama.dir/llama-sampling.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-sampling.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-sampling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-sampling.cpp.i"
@@ -398,7 +398,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-vocab.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/llama-vocab.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-vocab.cpp
 llama_build/src/CMakeFiles/llama.dir/llama-vocab.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object llama_build/src/CMakeFiles/llama.dir/llama-vocab.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-vocab.cpp.o -MF CMakeFiles/llama.dir/llama-vocab.cpp.o.d -o CMakeFiles/llama.dir/llama-vocab.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-vocab.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/llama-vocab.cpp.o -MF CMakeFiles/llama.dir/llama-vocab.cpp.o.d -o CMakeFiles/llama.dir/llama-vocab.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-vocab.cpp
 
 llama_build/src/CMakeFiles/llama.dir/llama-vocab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/llama-vocab.cpp.i"
@@ -412,7 +412,7 @@ llama_build/src/CMakeFiles/llama.dir/unicode-data.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/unicode-data.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/unicode-data.cpp
 llama_build/src/CMakeFiles/llama.dir/unicode-data.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object llama_build/src/CMakeFiles/llama.dir/unicode-data.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/unicode-data.cpp.o -MF CMakeFiles/llama.dir/unicode-data.cpp.o.d -o CMakeFiles/llama.dir/unicode-data.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/unicode-data.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/unicode-data.cpp.o -MF CMakeFiles/llama.dir/unicode-data.cpp.o.d -o CMakeFiles/llama.dir/unicode-data.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/unicode-data.cpp
 
 llama_build/src/CMakeFiles/llama.dir/unicode-data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/unicode-data.cpp.i"
@@ -426,7 +426,7 @@ llama_build/src/CMakeFiles/llama.dir/unicode.cpp.o: llama_build/src/CMakeFiles/l
 llama_build/src/CMakeFiles/llama.dir/unicode.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/unicode.cpp
 llama_build/src/CMakeFiles/llama.dir/unicode.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object llama_build/src/CMakeFiles/llama.dir/unicode.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/unicode.cpp.o -MF CMakeFiles/llama.dir/unicode.cpp.o.d -o CMakeFiles/llama.dir/unicode.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/unicode.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/unicode.cpp.o -MF CMakeFiles/llama.dir/unicode.cpp.o.d -o CMakeFiles/llama.dir/unicode.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/unicode.cpp
 
 llama_build/src/CMakeFiles/llama.dir/unicode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/unicode.cpp.i"
@@ -440,7 +440,7 @@ llama_build/src/CMakeFiles/llama.dir/models/afmoe.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/afmoe.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/afmoe.cpp
 llama_build/src/CMakeFiles/llama.dir/models/afmoe.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/afmoe.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/afmoe.cpp.o -MF CMakeFiles/llama.dir/models/afmoe.cpp.o.d -o CMakeFiles/llama.dir/models/afmoe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/afmoe.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/afmoe.cpp.o -MF CMakeFiles/llama.dir/models/afmoe.cpp.o.d -o CMakeFiles/llama.dir/models/afmoe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/afmoe.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/afmoe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/afmoe.cpp.i"
@@ -454,7 +454,7 @@ llama_build/src/CMakeFiles/llama.dir/models/apertus.cpp.o: llama_build/src/CMake
 llama_build/src/CMakeFiles/llama.dir/models/apertus.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/apertus.cpp
 llama_build/src/CMakeFiles/llama.dir/models/apertus.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/apertus.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/apertus.cpp.o -MF CMakeFiles/llama.dir/models/apertus.cpp.o.d -o CMakeFiles/llama.dir/models/apertus.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/apertus.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/apertus.cpp.o -MF CMakeFiles/llama.dir/models/apertus.cpp.o.d -o CMakeFiles/llama.dir/models/apertus.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/apertus.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/apertus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/apertus.cpp.i"
@@ -468,7 +468,7 @@ llama_build/src/CMakeFiles/llama.dir/models/arcee.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/arcee.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/arcee.cpp
 llama_build/src/CMakeFiles/llama.dir/models/arcee.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/arcee.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/arcee.cpp.o -MF CMakeFiles/llama.dir/models/arcee.cpp.o.d -o CMakeFiles/llama.dir/models/arcee.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/arcee.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/arcee.cpp.o -MF CMakeFiles/llama.dir/models/arcee.cpp.o.d -o CMakeFiles/llama.dir/models/arcee.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/arcee.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/arcee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/arcee.cpp.i"
@@ -482,7 +482,7 @@ llama_build/src/CMakeFiles/llama.dir/models/arctic.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/arctic.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/arctic.cpp
 llama_build/src/CMakeFiles/llama.dir/models/arctic.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/arctic.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/arctic.cpp.o -MF CMakeFiles/llama.dir/models/arctic.cpp.o.d -o CMakeFiles/llama.dir/models/arctic.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/arctic.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/arctic.cpp.o -MF CMakeFiles/llama.dir/models/arctic.cpp.o.d -o CMakeFiles/llama.dir/models/arctic.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/arctic.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/arctic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/arctic.cpp.i"
@@ -496,7 +496,7 @@ llama_build/src/CMakeFiles/llama.dir/models/arwkv7.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/arwkv7.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/arwkv7.cpp
 llama_build/src/CMakeFiles/llama.dir/models/arwkv7.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/arwkv7.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/arwkv7.cpp.o -MF CMakeFiles/llama.dir/models/arwkv7.cpp.o.d -o CMakeFiles/llama.dir/models/arwkv7.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/arwkv7.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/arwkv7.cpp.o -MF CMakeFiles/llama.dir/models/arwkv7.cpp.o.d -o CMakeFiles/llama.dir/models/arwkv7.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/arwkv7.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/arwkv7.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/arwkv7.cpp.i"
@@ -510,7 +510,7 @@ llama_build/src/CMakeFiles/llama.dir/models/baichuan.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/baichuan.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/baichuan.cpp
 llama_build/src/CMakeFiles/llama.dir/models/baichuan.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/baichuan.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/baichuan.cpp.o -MF CMakeFiles/llama.dir/models/baichuan.cpp.o.d -o CMakeFiles/llama.dir/models/baichuan.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/baichuan.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/baichuan.cpp.o -MF CMakeFiles/llama.dir/models/baichuan.cpp.o.d -o CMakeFiles/llama.dir/models/baichuan.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/baichuan.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/baichuan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/baichuan.cpp.i"
@@ -524,7 +524,7 @@ llama_build/src/CMakeFiles/llama.dir/models/bailingmoe.cpp.o: llama_build/src/CM
 llama_build/src/CMakeFiles/llama.dir/models/bailingmoe.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bailingmoe.cpp
 llama_build/src/CMakeFiles/llama.dir/models/bailingmoe.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/bailingmoe.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/bailingmoe.cpp.o -MF CMakeFiles/llama.dir/models/bailingmoe.cpp.o.d -o CMakeFiles/llama.dir/models/bailingmoe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bailingmoe.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/bailingmoe.cpp.o -MF CMakeFiles/llama.dir/models/bailingmoe.cpp.o.d -o CMakeFiles/llama.dir/models/bailingmoe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bailingmoe.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/bailingmoe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/bailingmoe.cpp.i"
@@ -538,7 +538,7 @@ llama_build/src/CMakeFiles/llama.dir/models/bailingmoe2.cpp.o: llama_build/src/C
 llama_build/src/CMakeFiles/llama.dir/models/bailingmoe2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bailingmoe2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/bailingmoe2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/bailingmoe2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/bailingmoe2.cpp.o -MF CMakeFiles/llama.dir/models/bailingmoe2.cpp.o.d -o CMakeFiles/llama.dir/models/bailingmoe2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bailingmoe2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/bailingmoe2.cpp.o -MF CMakeFiles/llama.dir/models/bailingmoe2.cpp.o.d -o CMakeFiles/llama.dir/models/bailingmoe2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bailingmoe2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/bailingmoe2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/bailingmoe2.cpp.i"
@@ -552,7 +552,7 @@ llama_build/src/CMakeFiles/llama.dir/models/bert.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/bert.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bert.cpp
 llama_build/src/CMakeFiles/llama.dir/models/bert.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/bert.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/bert.cpp.o -MF CMakeFiles/llama.dir/models/bert.cpp.o.d -o CMakeFiles/llama.dir/models/bert.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bert.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/bert.cpp.o -MF CMakeFiles/llama.dir/models/bert.cpp.o.d -o CMakeFiles/llama.dir/models/bert.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bert.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/bert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/bert.cpp.i"
@@ -566,7 +566,7 @@ llama_build/src/CMakeFiles/llama.dir/models/bitnet.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/bitnet.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bitnet.cpp
 llama_build/src/CMakeFiles/llama.dir/models/bitnet.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/bitnet.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/bitnet.cpp.o -MF CMakeFiles/llama.dir/models/bitnet.cpp.o.d -o CMakeFiles/llama.dir/models/bitnet.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bitnet.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/bitnet.cpp.o -MF CMakeFiles/llama.dir/models/bitnet.cpp.o.d -o CMakeFiles/llama.dir/models/bitnet.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bitnet.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/bitnet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/bitnet.cpp.i"
@@ -580,7 +580,7 @@ llama_build/src/CMakeFiles/llama.dir/models/bloom.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/bloom.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bloom.cpp
 llama_build/src/CMakeFiles/llama.dir/models/bloom.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/bloom.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/bloom.cpp.o -MF CMakeFiles/llama.dir/models/bloom.cpp.o.d -o CMakeFiles/llama.dir/models/bloom.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bloom.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/bloom.cpp.o -MF CMakeFiles/llama.dir/models/bloom.cpp.o.d -o CMakeFiles/llama.dir/models/bloom.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/bloom.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/bloom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/bloom.cpp.i"
@@ -594,7 +594,7 @@ llama_build/src/CMakeFiles/llama.dir/models/chameleon.cpp.o: llama_build/src/CMa
 llama_build/src/CMakeFiles/llama.dir/models/chameleon.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/chameleon.cpp
 llama_build/src/CMakeFiles/llama.dir/models/chameleon.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/chameleon.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/chameleon.cpp.o -MF CMakeFiles/llama.dir/models/chameleon.cpp.o.d -o CMakeFiles/llama.dir/models/chameleon.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/chameleon.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/chameleon.cpp.o -MF CMakeFiles/llama.dir/models/chameleon.cpp.o.d -o CMakeFiles/llama.dir/models/chameleon.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/chameleon.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/chameleon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/chameleon.cpp.i"
@@ -608,7 +608,7 @@ llama_build/src/CMakeFiles/llama.dir/models/chatglm.cpp.o: llama_build/src/CMake
 llama_build/src/CMakeFiles/llama.dir/models/chatglm.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/chatglm.cpp
 llama_build/src/CMakeFiles/llama.dir/models/chatglm.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/chatglm.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/chatglm.cpp.o -MF CMakeFiles/llama.dir/models/chatglm.cpp.o.d -o CMakeFiles/llama.dir/models/chatglm.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/chatglm.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/chatglm.cpp.o -MF CMakeFiles/llama.dir/models/chatglm.cpp.o.d -o CMakeFiles/llama.dir/models/chatglm.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/chatglm.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/chatglm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/chatglm.cpp.i"
@@ -622,7 +622,7 @@ llama_build/src/CMakeFiles/llama.dir/models/codeshell.cpp.o: llama_build/src/CMa
 llama_build/src/CMakeFiles/llama.dir/models/codeshell.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/codeshell.cpp
 llama_build/src/CMakeFiles/llama.dir/models/codeshell.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/codeshell.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/codeshell.cpp.o -MF CMakeFiles/llama.dir/models/codeshell.cpp.o.d -o CMakeFiles/llama.dir/models/codeshell.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/codeshell.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/codeshell.cpp.o -MF CMakeFiles/llama.dir/models/codeshell.cpp.o.d -o CMakeFiles/llama.dir/models/codeshell.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/codeshell.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/codeshell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/codeshell.cpp.i"
@@ -636,7 +636,7 @@ llama_build/src/CMakeFiles/llama.dir/models/cogvlm.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/cogvlm.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/cogvlm.cpp
 llama_build/src/CMakeFiles/llama.dir/models/cogvlm.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/cogvlm.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/cogvlm.cpp.o -MF CMakeFiles/llama.dir/models/cogvlm.cpp.o.d -o CMakeFiles/llama.dir/models/cogvlm.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/cogvlm.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/cogvlm.cpp.o -MF CMakeFiles/llama.dir/models/cogvlm.cpp.o.d -o CMakeFiles/llama.dir/models/cogvlm.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/cogvlm.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/cogvlm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/cogvlm.cpp.i"
@@ -650,7 +650,7 @@ llama_build/src/CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o: llama_build/src/
 llama_build/src/CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/cohere2-iswa.cpp
 llama_build/src/CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o -MF CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/cohere2-iswa.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o -MF CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/cohere2-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/cohere2-iswa.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/cohere2-iswa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/cohere2-iswa.cpp.i"
@@ -664,7 +664,7 @@ llama_build/src/CMakeFiles/llama.dir/models/command-r.cpp.o: llama_build/src/CMa
 llama_build/src/CMakeFiles/llama.dir/models/command-r.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/command-r.cpp
 llama_build/src/CMakeFiles/llama.dir/models/command-r.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/command-r.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/command-r.cpp.o -MF CMakeFiles/llama.dir/models/command-r.cpp.o.d -o CMakeFiles/llama.dir/models/command-r.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/command-r.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/command-r.cpp.o -MF CMakeFiles/llama.dir/models/command-r.cpp.o.d -o CMakeFiles/llama.dir/models/command-r.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/command-r.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/command-r.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/command-r.cpp.i"
@@ -678,7 +678,7 @@ llama_build/src/CMakeFiles/llama.dir/models/dbrx.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/dbrx.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/dbrx.cpp
 llama_build/src/CMakeFiles/llama.dir/models/dbrx.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/dbrx.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/dbrx.cpp.o -MF CMakeFiles/llama.dir/models/dbrx.cpp.o.d -o CMakeFiles/llama.dir/models/dbrx.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/dbrx.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/dbrx.cpp.o -MF CMakeFiles/llama.dir/models/dbrx.cpp.o.d -o CMakeFiles/llama.dir/models/dbrx.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/dbrx.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/dbrx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/dbrx.cpp.i"
@@ -692,7 +692,7 @@ llama_build/src/CMakeFiles/llama.dir/models/deci.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/deci.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/deci.cpp
 llama_build/src/CMakeFiles/llama.dir/models/deci.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/deci.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/deci.cpp.o -MF CMakeFiles/llama.dir/models/deci.cpp.o.d -o CMakeFiles/llama.dir/models/deci.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/deci.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/deci.cpp.o -MF CMakeFiles/llama.dir/models/deci.cpp.o.d -o CMakeFiles/llama.dir/models/deci.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/deci.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/deci.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/deci.cpp.i"
@@ -706,7 +706,7 @@ llama_build/src/CMakeFiles/llama.dir/models/deepseek.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/deepseek.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/deepseek.cpp
 llama_build/src/CMakeFiles/llama.dir/models/deepseek.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/deepseek.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/deepseek.cpp.o -MF CMakeFiles/llama.dir/models/deepseek.cpp.o.d -o CMakeFiles/llama.dir/models/deepseek.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/deepseek.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/deepseek.cpp.o -MF CMakeFiles/llama.dir/models/deepseek.cpp.o.d -o CMakeFiles/llama.dir/models/deepseek.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/deepseek.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/deepseek.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/deepseek.cpp.i"
@@ -720,7 +720,7 @@ llama_build/src/CMakeFiles/llama.dir/models/deepseek2.cpp.o: llama_build/src/CMa
 llama_build/src/CMakeFiles/llama.dir/models/deepseek2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/deepseek2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/deepseek2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/deepseek2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/deepseek2.cpp.o -MF CMakeFiles/llama.dir/models/deepseek2.cpp.o.d -o CMakeFiles/llama.dir/models/deepseek2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/deepseek2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/deepseek2.cpp.o -MF CMakeFiles/llama.dir/models/deepseek2.cpp.o.d -o CMakeFiles/llama.dir/models/deepseek2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/deepseek2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/deepseek2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/deepseek2.cpp.i"
@@ -734,7 +734,7 @@ llama_build/src/CMakeFiles/llama.dir/models/dots1.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/dots1.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/dots1.cpp
 llama_build/src/CMakeFiles/llama.dir/models/dots1.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/dots1.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/dots1.cpp.o -MF CMakeFiles/llama.dir/models/dots1.cpp.o.d -o CMakeFiles/llama.dir/models/dots1.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/dots1.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/dots1.cpp.o -MF CMakeFiles/llama.dir/models/dots1.cpp.o.d -o CMakeFiles/llama.dir/models/dots1.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/dots1.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/dots1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/dots1.cpp.i"
@@ -748,7 +748,7 @@ llama_build/src/CMakeFiles/llama.dir/models/dream.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/dream.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/dream.cpp
 llama_build/src/CMakeFiles/llama.dir/models/dream.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/dream.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/dream.cpp.o -MF CMakeFiles/llama.dir/models/dream.cpp.o.d -o CMakeFiles/llama.dir/models/dream.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/dream.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/dream.cpp.o -MF CMakeFiles/llama.dir/models/dream.cpp.o.d -o CMakeFiles/llama.dir/models/dream.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/dream.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/dream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/dream.cpp.i"
@@ -762,7 +762,7 @@ llama_build/src/CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o: llama_build/src/
 llama_build/src/CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/ernie4-5-moe.cpp
 llama_build/src/CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o -MF CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o.d -o CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/ernie4-5-moe.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o -MF CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o.d -o CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/ernie4-5-moe.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/ernie4-5-moe.cpp.i"
@@ -776,7 +776,7 @@ llama_build/src/CMakeFiles/llama.dir/models/ernie4-5.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/ernie4-5.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/ernie4-5.cpp
 llama_build/src/CMakeFiles/llama.dir/models/ernie4-5.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/ernie4-5.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/ernie4-5.cpp.o -MF CMakeFiles/llama.dir/models/ernie4-5.cpp.o.d -o CMakeFiles/llama.dir/models/ernie4-5.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/ernie4-5.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/ernie4-5.cpp.o -MF CMakeFiles/llama.dir/models/ernie4-5.cpp.o.d -o CMakeFiles/llama.dir/models/ernie4-5.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/ernie4-5.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/ernie4-5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/ernie4-5.cpp.i"
@@ -790,7 +790,7 @@ llama_build/src/CMakeFiles/llama.dir/models/exaone.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/exaone.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/exaone.cpp
 llama_build/src/CMakeFiles/llama.dir/models/exaone.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/exaone.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/exaone.cpp.o -MF CMakeFiles/llama.dir/models/exaone.cpp.o.d -o CMakeFiles/llama.dir/models/exaone.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/exaone.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/exaone.cpp.o -MF CMakeFiles/llama.dir/models/exaone.cpp.o.d -o CMakeFiles/llama.dir/models/exaone.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/exaone.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/exaone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/exaone.cpp.i"
@@ -804,7 +804,7 @@ llama_build/src/CMakeFiles/llama.dir/models/exaone4.cpp.o: llama_build/src/CMake
 llama_build/src/CMakeFiles/llama.dir/models/exaone4.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/exaone4.cpp
 llama_build/src/CMakeFiles/llama.dir/models/exaone4.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/exaone4.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/exaone4.cpp.o -MF CMakeFiles/llama.dir/models/exaone4.cpp.o.d -o CMakeFiles/llama.dir/models/exaone4.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/exaone4.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/exaone4.cpp.o -MF CMakeFiles/llama.dir/models/exaone4.cpp.o.d -o CMakeFiles/llama.dir/models/exaone4.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/exaone4.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/exaone4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/exaone4.cpp.i"
@@ -818,7 +818,7 @@ llama_build/src/CMakeFiles/llama.dir/models/falcon-h1.cpp.o: llama_build/src/CMa
 llama_build/src/CMakeFiles/llama.dir/models/falcon-h1.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/falcon-h1.cpp
 llama_build/src/CMakeFiles/llama.dir/models/falcon-h1.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/falcon-h1.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/falcon-h1.cpp.o -MF CMakeFiles/llama.dir/models/falcon-h1.cpp.o.d -o CMakeFiles/llama.dir/models/falcon-h1.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/falcon-h1.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/falcon-h1.cpp.o -MF CMakeFiles/llama.dir/models/falcon-h1.cpp.o.d -o CMakeFiles/llama.dir/models/falcon-h1.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/falcon-h1.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/falcon-h1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/falcon-h1.cpp.i"
@@ -832,7 +832,7 @@ llama_build/src/CMakeFiles/llama.dir/models/falcon.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/falcon.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/falcon.cpp
 llama_build/src/CMakeFiles/llama.dir/models/falcon.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/falcon.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/falcon.cpp.o -MF CMakeFiles/llama.dir/models/falcon.cpp.o.d -o CMakeFiles/llama.dir/models/falcon.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/falcon.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/falcon.cpp.o -MF CMakeFiles/llama.dir/models/falcon.cpp.o.d -o CMakeFiles/llama.dir/models/falcon.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/falcon.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/falcon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/falcon.cpp.i"
@@ -846,7 +846,7 @@ llama_build/src/CMakeFiles/llama.dir/models/gemma-embedding.cpp.o: llama_build/s
 llama_build/src/CMakeFiles/llama.dir/models/gemma-embedding.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma-embedding.cpp
 llama_build/src/CMakeFiles/llama.dir/models/gemma-embedding.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/gemma-embedding.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gemma-embedding.cpp.o -MF CMakeFiles/llama.dir/models/gemma-embedding.cpp.o.d -o CMakeFiles/llama.dir/models/gemma-embedding.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma-embedding.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gemma-embedding.cpp.o -MF CMakeFiles/llama.dir/models/gemma-embedding.cpp.o.d -o CMakeFiles/llama.dir/models/gemma-embedding.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma-embedding.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/gemma-embedding.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/gemma-embedding.cpp.i"
@@ -860,7 +860,7 @@ llama_build/src/CMakeFiles/llama.dir/models/gemma.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/gemma.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma.cpp
 llama_build/src/CMakeFiles/llama.dir/models/gemma.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/gemma.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gemma.cpp.o -MF CMakeFiles/llama.dir/models/gemma.cpp.o.d -o CMakeFiles/llama.dir/models/gemma.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gemma.cpp.o -MF CMakeFiles/llama.dir/models/gemma.cpp.o.d -o CMakeFiles/llama.dir/models/gemma.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/gemma.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/gemma.cpp.i"
@@ -874,7 +874,7 @@ llama_build/src/CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o: llama_build/src/C
 llama_build/src/CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma2-iswa.cpp
 llama_build/src/CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o -MF CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma2-iswa.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o -MF CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/gemma2-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma2-iswa.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/gemma2-iswa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/gemma2-iswa.cpp.i"
@@ -888,7 +888,7 @@ llama_build/src/CMakeFiles/llama.dir/models/gemma3.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/gemma3.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma3.cpp
 llama_build/src/CMakeFiles/llama.dir/models/gemma3.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/gemma3.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gemma3.cpp.o -MF CMakeFiles/llama.dir/models/gemma3.cpp.o.d -o CMakeFiles/llama.dir/models/gemma3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma3.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gemma3.cpp.o -MF CMakeFiles/llama.dir/models/gemma3.cpp.o.d -o CMakeFiles/llama.dir/models/gemma3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma3.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/gemma3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/gemma3.cpp.i"
@@ -902,7 +902,7 @@ llama_build/src/CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o: llama_build/src/
 llama_build/src/CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma3n-iswa.cpp
 llama_build/src/CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o -MF CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma3n-iswa.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o -MF CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gemma3n-iswa.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/gemma3n-iswa.cpp.i"
@@ -916,7 +916,7 @@ llama_build/src/CMakeFiles/llama.dir/models/glm4-moe.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/glm4-moe.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/glm4-moe.cpp
 llama_build/src/CMakeFiles/llama.dir/models/glm4-moe.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/glm4-moe.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/glm4-moe.cpp.o -MF CMakeFiles/llama.dir/models/glm4-moe.cpp.o.d -o CMakeFiles/llama.dir/models/glm4-moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/glm4-moe.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/glm4-moe.cpp.o -MF CMakeFiles/llama.dir/models/glm4-moe.cpp.o.d -o CMakeFiles/llama.dir/models/glm4-moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/glm4-moe.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/glm4-moe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/glm4-moe.cpp.i"
@@ -930,7 +930,7 @@ llama_build/src/CMakeFiles/llama.dir/models/glm4.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/glm4.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/glm4.cpp
 llama_build/src/CMakeFiles/llama.dir/models/glm4.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/glm4.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/glm4.cpp.o -MF CMakeFiles/llama.dir/models/glm4.cpp.o.d -o CMakeFiles/llama.dir/models/glm4.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/glm4.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/glm4.cpp.o -MF CMakeFiles/llama.dir/models/glm4.cpp.o.d -o CMakeFiles/llama.dir/models/glm4.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/glm4.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/glm4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/glm4.cpp.i"
@@ -944,7 +944,7 @@ llama_build/src/CMakeFiles/llama.dir/models/gpt2.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/gpt2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gpt2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/gpt2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/gpt2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gpt2.cpp.o -MF CMakeFiles/llama.dir/models/gpt2.cpp.o.d -o CMakeFiles/llama.dir/models/gpt2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gpt2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gpt2.cpp.o -MF CMakeFiles/llama.dir/models/gpt2.cpp.o.d -o CMakeFiles/llama.dir/models/gpt2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gpt2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/gpt2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/gpt2.cpp.i"
@@ -958,7 +958,7 @@ llama_build/src/CMakeFiles/llama.dir/models/gptneox.cpp.o: llama_build/src/CMake
 llama_build/src/CMakeFiles/llama.dir/models/gptneox.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gptneox.cpp
 llama_build/src/CMakeFiles/llama.dir/models/gptneox.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/gptneox.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gptneox.cpp.o -MF CMakeFiles/llama.dir/models/gptneox.cpp.o.d -o CMakeFiles/llama.dir/models/gptneox.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gptneox.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/gptneox.cpp.o -MF CMakeFiles/llama.dir/models/gptneox.cpp.o.d -o CMakeFiles/llama.dir/models/gptneox.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/gptneox.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/gptneox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/gptneox.cpp.i"
@@ -972,7 +972,7 @@ llama_build/src/CMakeFiles/llama.dir/models/granite-hybrid.cpp.o: llama_build/sr
 llama_build/src/CMakeFiles/llama.dir/models/granite-hybrid.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/granite-hybrid.cpp
 llama_build/src/CMakeFiles/llama.dir/models/granite-hybrid.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/granite-hybrid.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/granite-hybrid.cpp.o -MF CMakeFiles/llama.dir/models/granite-hybrid.cpp.o.d -o CMakeFiles/llama.dir/models/granite-hybrid.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/granite-hybrid.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/granite-hybrid.cpp.o -MF CMakeFiles/llama.dir/models/granite-hybrid.cpp.o.d -o CMakeFiles/llama.dir/models/granite-hybrid.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/granite-hybrid.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/granite-hybrid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/granite-hybrid.cpp.i"
@@ -986,7 +986,7 @@ llama_build/src/CMakeFiles/llama.dir/models/granite.cpp.o: llama_build/src/CMake
 llama_build/src/CMakeFiles/llama.dir/models/granite.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/granite.cpp
 llama_build/src/CMakeFiles/llama.dir/models/granite.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/granite.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/granite.cpp.o -MF CMakeFiles/llama.dir/models/granite.cpp.o.d -o CMakeFiles/llama.dir/models/granite.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/granite.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/granite.cpp.o -MF CMakeFiles/llama.dir/models/granite.cpp.o.d -o CMakeFiles/llama.dir/models/granite.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/granite.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/granite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/granite.cpp.i"
@@ -1000,7 +1000,7 @@ llama_build/src/CMakeFiles/llama.dir/models/grok.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/grok.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/grok.cpp
 llama_build/src/CMakeFiles/llama.dir/models/grok.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/grok.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/grok.cpp.o -MF CMakeFiles/llama.dir/models/grok.cpp.o.d -o CMakeFiles/llama.dir/models/grok.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/grok.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/grok.cpp.o -MF CMakeFiles/llama.dir/models/grok.cpp.o.d -o CMakeFiles/llama.dir/models/grok.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/grok.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/grok.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/grok.cpp.i"
@@ -1014,7 +1014,7 @@ llama_build/src/CMakeFiles/llama.dir/models/grovemoe.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/grovemoe.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/grovemoe.cpp
 llama_build/src/CMakeFiles/llama.dir/models/grovemoe.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/grovemoe.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/grovemoe.cpp.o -MF CMakeFiles/llama.dir/models/grovemoe.cpp.o.d -o CMakeFiles/llama.dir/models/grovemoe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/grovemoe.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/grovemoe.cpp.o -MF CMakeFiles/llama.dir/models/grovemoe.cpp.o.d -o CMakeFiles/llama.dir/models/grovemoe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/grovemoe.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/grovemoe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/grovemoe.cpp.i"
@@ -1028,7 +1028,7 @@ llama_build/src/CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o: llama_build/src
 llama_build/src/CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/hunyuan-dense.cpp
 llama_build/src/CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o -MF CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o.d -o CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/hunyuan-dense.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o -MF CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o.d -o CMakeFiles/llama.dir/models/hunyuan-dense.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/hunyuan-dense.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/hunyuan-dense.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/hunyuan-dense.cpp.i"
@@ -1042,7 +1042,7 @@ llama_build/src/CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o: llama_build/src/C
 llama_build/src/CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/hunyuan-moe.cpp
 llama_build/src/CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o -MF CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o.d -o CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/hunyuan-moe.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o -MF CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o.d -o CMakeFiles/llama.dir/models/hunyuan-moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/hunyuan-moe.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/hunyuan-moe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/hunyuan-moe.cpp.i"
@@ -1056,7 +1056,7 @@ llama_build/src/CMakeFiles/llama.dir/models/internlm2.cpp.o: llama_build/src/CMa
 llama_build/src/CMakeFiles/llama.dir/models/internlm2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/internlm2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/internlm2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/internlm2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/internlm2.cpp.o -MF CMakeFiles/llama.dir/models/internlm2.cpp.o.d -o CMakeFiles/llama.dir/models/internlm2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/internlm2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/internlm2.cpp.o -MF CMakeFiles/llama.dir/models/internlm2.cpp.o.d -o CMakeFiles/llama.dir/models/internlm2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/internlm2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/internlm2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/internlm2.cpp.i"
@@ -1070,7 +1070,7 @@ llama_build/src/CMakeFiles/llama.dir/models/jais.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/jais.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/jais.cpp
 llama_build/src/CMakeFiles/llama.dir/models/jais.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/jais.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/jais.cpp.o -MF CMakeFiles/llama.dir/models/jais.cpp.o.d -o CMakeFiles/llama.dir/models/jais.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/jais.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/jais.cpp.o -MF CMakeFiles/llama.dir/models/jais.cpp.o.d -o CMakeFiles/llama.dir/models/jais.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/jais.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/jais.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/jais.cpp.i"
@@ -1084,7 +1084,7 @@ llama_build/src/CMakeFiles/llama.dir/models/jamba.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/jamba.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/jamba.cpp
 llama_build/src/CMakeFiles/llama.dir/models/jamba.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/jamba.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/jamba.cpp.o -MF CMakeFiles/llama.dir/models/jamba.cpp.o.d -o CMakeFiles/llama.dir/models/jamba.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/jamba.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/jamba.cpp.o -MF CMakeFiles/llama.dir/models/jamba.cpp.o.d -o CMakeFiles/llama.dir/models/jamba.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/jamba.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/jamba.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/jamba.cpp.i"
@@ -1098,7 +1098,7 @@ llama_build/src/CMakeFiles/llama.dir/models/lfm2.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/lfm2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/lfm2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/lfm2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/lfm2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/lfm2.cpp.o -MF CMakeFiles/llama.dir/models/lfm2.cpp.o.d -o CMakeFiles/llama.dir/models/lfm2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/lfm2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/lfm2.cpp.o -MF CMakeFiles/llama.dir/models/lfm2.cpp.o.d -o CMakeFiles/llama.dir/models/lfm2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/lfm2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/lfm2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/lfm2.cpp.i"
@@ -1112,7 +1112,7 @@ llama_build/src/CMakeFiles/llama.dir/models/llada-moe.cpp.o: llama_build/src/CMa
 llama_build/src/CMakeFiles/llama.dir/models/llada-moe.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llada-moe.cpp
 llama_build/src/CMakeFiles/llama.dir/models/llada-moe.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/llada-moe.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/llada-moe.cpp.o -MF CMakeFiles/llama.dir/models/llada-moe.cpp.o.d -o CMakeFiles/llama.dir/models/llada-moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llada-moe.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/llada-moe.cpp.o -MF CMakeFiles/llama.dir/models/llada-moe.cpp.o.d -o CMakeFiles/llama.dir/models/llada-moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llada-moe.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/llada-moe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/llada-moe.cpp.i"
@@ -1126,7 +1126,7 @@ llama_build/src/CMakeFiles/llama.dir/models/llada.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/llada.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llada.cpp
 llama_build/src/CMakeFiles/llama.dir/models/llada.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/llada.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/llada.cpp.o -MF CMakeFiles/llama.dir/models/llada.cpp.o.d -o CMakeFiles/llama.dir/models/llada.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llada.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/llada.cpp.o -MF CMakeFiles/llama.dir/models/llada.cpp.o.d -o CMakeFiles/llama.dir/models/llada.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llada.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/llada.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/llada.cpp.i"
@@ -1140,7 +1140,7 @@ llama_build/src/CMakeFiles/llama.dir/models/llama-iswa.cpp.o: llama_build/src/CM
 llama_build/src/CMakeFiles/llama.dir/models/llama-iswa.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llama-iswa.cpp
 llama_build/src/CMakeFiles/llama.dir/models/llama-iswa.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/llama-iswa.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/llama-iswa.cpp.o -MF CMakeFiles/llama.dir/models/llama-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/llama-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llama-iswa.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/llama-iswa.cpp.o -MF CMakeFiles/llama.dir/models/llama-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/llama-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llama-iswa.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/llama-iswa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/llama-iswa.cpp.i"
@@ -1154,7 +1154,7 @@ llama_build/src/CMakeFiles/llama.dir/models/llama.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/llama.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llama.cpp
 llama_build/src/CMakeFiles/llama.dir/models/llama.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/llama.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/llama.cpp.o -MF CMakeFiles/llama.dir/models/llama.cpp.o.d -o CMakeFiles/llama.dir/models/llama.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llama.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/llama.cpp.o -MF CMakeFiles/llama.dir/models/llama.cpp.o.d -o CMakeFiles/llama.dir/models/llama.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/llama.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/llama.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/llama.cpp.i"
@@ -1168,7 +1168,7 @@ llama_build/src/CMakeFiles/llama.dir/models/maincoder.cpp.o: llama_build/src/CMa
 llama_build/src/CMakeFiles/llama.dir/models/maincoder.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/maincoder.cpp
 llama_build/src/CMakeFiles/llama.dir/models/maincoder.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/maincoder.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/maincoder.cpp.o -MF CMakeFiles/llama.dir/models/maincoder.cpp.o.d -o CMakeFiles/llama.dir/models/maincoder.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/maincoder.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/maincoder.cpp.o -MF CMakeFiles/llama.dir/models/maincoder.cpp.o.d -o CMakeFiles/llama.dir/models/maincoder.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/maincoder.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/maincoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/maincoder.cpp.i"
@@ -1182,7 +1182,7 @@ llama_build/src/CMakeFiles/llama.dir/models/mamba.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/mamba.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mamba.cpp
 llama_build/src/CMakeFiles/llama.dir/models/mamba.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/mamba.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/mamba.cpp.o -MF CMakeFiles/llama.dir/models/mamba.cpp.o.d -o CMakeFiles/llama.dir/models/mamba.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mamba.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/mamba.cpp.o -MF CMakeFiles/llama.dir/models/mamba.cpp.o.d -o CMakeFiles/llama.dir/models/mamba.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mamba.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/mamba.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/mamba.cpp.i"
@@ -1196,7 +1196,7 @@ llama_build/src/CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o: llama_build/src/CM
 llama_build/src/CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mimo2-iswa.cpp
 llama_build/src/CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o -MF CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mimo2-iswa.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o -MF CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/mimo2-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mimo2-iswa.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/mimo2-iswa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/mimo2-iswa.cpp.i"
@@ -1210,7 +1210,7 @@ llama_build/src/CMakeFiles/llama.dir/models/minicpm3.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/minicpm3.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/minicpm3.cpp
 llama_build/src/CMakeFiles/llama.dir/models/minicpm3.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/minicpm3.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/minicpm3.cpp.o -MF CMakeFiles/llama.dir/models/minicpm3.cpp.o.d -o CMakeFiles/llama.dir/models/minicpm3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/minicpm3.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/minicpm3.cpp.o -MF CMakeFiles/llama.dir/models/minicpm3.cpp.o.d -o CMakeFiles/llama.dir/models/minicpm3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/minicpm3.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/minicpm3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/minicpm3.cpp.i"
@@ -1224,7 +1224,7 @@ llama_build/src/CMakeFiles/llama.dir/models/minimax-m2.cpp.o: llama_build/src/CM
 llama_build/src/CMakeFiles/llama.dir/models/minimax-m2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/minimax-m2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/minimax-m2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/minimax-m2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/minimax-m2.cpp.o -MF CMakeFiles/llama.dir/models/minimax-m2.cpp.o.d -o CMakeFiles/llama.dir/models/minimax-m2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/minimax-m2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/minimax-m2.cpp.o -MF CMakeFiles/llama.dir/models/minimax-m2.cpp.o.d -o CMakeFiles/llama.dir/models/minimax-m2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/minimax-m2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/minimax-m2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/minimax-m2.cpp.i"
@@ -1238,7 +1238,7 @@ llama_build/src/CMakeFiles/llama.dir/models/modern-bert.cpp.o: llama_build/src/C
 llama_build/src/CMakeFiles/llama.dir/models/modern-bert.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/modern-bert.cpp
 llama_build/src/CMakeFiles/llama.dir/models/modern-bert.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/modern-bert.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/modern-bert.cpp.o -MF CMakeFiles/llama.dir/models/modern-bert.cpp.o.d -o CMakeFiles/llama.dir/models/modern-bert.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/modern-bert.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/modern-bert.cpp.o -MF CMakeFiles/llama.dir/models/modern-bert.cpp.o.d -o CMakeFiles/llama.dir/models/modern-bert.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/modern-bert.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/modern-bert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/modern-bert.cpp.i"
@@ -1252,7 +1252,7 @@ llama_build/src/CMakeFiles/llama.dir/models/mpt.cpp.o: llama_build/src/CMakeFile
 llama_build/src/CMakeFiles/llama.dir/models/mpt.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mpt.cpp
 llama_build/src/CMakeFiles/llama.dir/models/mpt.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/mpt.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/mpt.cpp.o -MF CMakeFiles/llama.dir/models/mpt.cpp.o.d -o CMakeFiles/llama.dir/models/mpt.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mpt.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/mpt.cpp.o -MF CMakeFiles/llama.dir/models/mpt.cpp.o.d -o CMakeFiles/llama.dir/models/mpt.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mpt.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/mpt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/mpt.cpp.i"
@@ -1266,7 +1266,7 @@ llama_build/src/CMakeFiles/llama.dir/models/nemotron-h.cpp.o: llama_build/src/CM
 llama_build/src/CMakeFiles/llama.dir/models/nemotron-h.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/nemotron-h.cpp
 llama_build/src/CMakeFiles/llama.dir/models/nemotron-h.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/nemotron-h.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/nemotron-h.cpp.o -MF CMakeFiles/llama.dir/models/nemotron-h.cpp.o.d -o CMakeFiles/llama.dir/models/nemotron-h.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/nemotron-h.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/nemotron-h.cpp.o -MF CMakeFiles/llama.dir/models/nemotron-h.cpp.o.d -o CMakeFiles/llama.dir/models/nemotron-h.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/nemotron-h.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/nemotron-h.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/nemotron-h.cpp.i"
@@ -1280,7 +1280,7 @@ llama_build/src/CMakeFiles/llama.dir/models/nemotron.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/nemotron.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/nemotron.cpp
 llama_build/src/CMakeFiles/llama.dir/models/nemotron.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/nemotron.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/nemotron.cpp.o -MF CMakeFiles/llama.dir/models/nemotron.cpp.o.d -o CMakeFiles/llama.dir/models/nemotron.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/nemotron.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/nemotron.cpp.o -MF CMakeFiles/llama.dir/models/nemotron.cpp.o.d -o CMakeFiles/llama.dir/models/nemotron.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/nemotron.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/nemotron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/nemotron.cpp.i"
@@ -1294,7 +1294,7 @@ llama_build/src/CMakeFiles/llama.dir/models/neo-bert.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/neo-bert.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/neo-bert.cpp
 llama_build/src/CMakeFiles/llama.dir/models/neo-bert.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/neo-bert.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/neo-bert.cpp.o -MF CMakeFiles/llama.dir/models/neo-bert.cpp.o.d -o CMakeFiles/llama.dir/models/neo-bert.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/neo-bert.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/neo-bert.cpp.o -MF CMakeFiles/llama.dir/models/neo-bert.cpp.o.d -o CMakeFiles/llama.dir/models/neo-bert.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/neo-bert.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/neo-bert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/neo-bert.cpp.i"
@@ -1308,7 +1308,7 @@ llama_build/src/CMakeFiles/llama.dir/models/olmo.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/olmo.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/olmo.cpp
 llama_build/src/CMakeFiles/llama.dir/models/olmo.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/olmo.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/olmo.cpp.o -MF CMakeFiles/llama.dir/models/olmo.cpp.o.d -o CMakeFiles/llama.dir/models/olmo.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/olmo.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/olmo.cpp.o -MF CMakeFiles/llama.dir/models/olmo.cpp.o.d -o CMakeFiles/llama.dir/models/olmo.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/olmo.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/olmo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/olmo.cpp.i"
@@ -1322,7 +1322,7 @@ llama_build/src/CMakeFiles/llama.dir/models/olmo2.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/olmo2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/olmo2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/olmo2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/olmo2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/olmo2.cpp.o -MF CMakeFiles/llama.dir/models/olmo2.cpp.o.d -o CMakeFiles/llama.dir/models/olmo2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/olmo2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/olmo2.cpp.o -MF CMakeFiles/llama.dir/models/olmo2.cpp.o.d -o CMakeFiles/llama.dir/models/olmo2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/olmo2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/olmo2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/olmo2.cpp.i"
@@ -1336,7 +1336,7 @@ llama_build/src/CMakeFiles/llama.dir/models/olmoe.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/olmoe.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/olmoe.cpp
 llama_build/src/CMakeFiles/llama.dir/models/olmoe.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/olmoe.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/olmoe.cpp.o -MF CMakeFiles/llama.dir/models/olmoe.cpp.o.d -o CMakeFiles/llama.dir/models/olmoe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/olmoe.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/olmoe.cpp.o -MF CMakeFiles/llama.dir/models/olmoe.cpp.o.d -o CMakeFiles/llama.dir/models/olmoe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/olmoe.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/olmoe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/olmoe.cpp.i"
@@ -1350,7 +1350,7 @@ llama_build/src/CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o: llama_build/s
 llama_build/src/CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/openai-moe-iswa.cpp
 llama_build/src/CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o -MF CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/openai-moe-iswa.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o -MF CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o.d -o CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/openai-moe-iswa.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/openai-moe-iswa.cpp.i"
@@ -1364,7 +1364,7 @@ llama_build/src/CMakeFiles/llama.dir/models/openelm.cpp.o: llama_build/src/CMake
 llama_build/src/CMakeFiles/llama.dir/models/openelm.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/openelm.cpp
 llama_build/src/CMakeFiles/llama.dir/models/openelm.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/openelm.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/openelm.cpp.o -MF CMakeFiles/llama.dir/models/openelm.cpp.o.d -o CMakeFiles/llama.dir/models/openelm.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/openelm.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/openelm.cpp.o -MF CMakeFiles/llama.dir/models/openelm.cpp.o.d -o CMakeFiles/llama.dir/models/openelm.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/openelm.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/openelm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/openelm.cpp.i"
@@ -1378,7 +1378,7 @@ llama_build/src/CMakeFiles/llama.dir/models/orion.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/orion.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/orion.cpp
 llama_build/src/CMakeFiles/llama.dir/models/orion.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/orion.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/orion.cpp.o -MF CMakeFiles/llama.dir/models/orion.cpp.o.d -o CMakeFiles/llama.dir/models/orion.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/orion.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/orion.cpp.o -MF CMakeFiles/llama.dir/models/orion.cpp.o.d -o CMakeFiles/llama.dir/models/orion.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/orion.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/orion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/orion.cpp.i"
@@ -1392,7 +1392,7 @@ llama_build/src/CMakeFiles/llama.dir/models/pangu-embedded.cpp.o: llama_build/sr
 llama_build/src/CMakeFiles/llama.dir/models/pangu-embedded.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/pangu-embedded.cpp
 llama_build/src/CMakeFiles/llama.dir/models/pangu-embedded.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/pangu-embedded.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/pangu-embedded.cpp.o -MF CMakeFiles/llama.dir/models/pangu-embedded.cpp.o.d -o CMakeFiles/llama.dir/models/pangu-embedded.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/pangu-embedded.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/pangu-embedded.cpp.o -MF CMakeFiles/llama.dir/models/pangu-embedded.cpp.o.d -o CMakeFiles/llama.dir/models/pangu-embedded.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/pangu-embedded.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/pangu-embedded.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/pangu-embedded.cpp.i"
@@ -1406,7 +1406,7 @@ llama_build/src/CMakeFiles/llama.dir/models/phi2.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/phi2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/phi2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/phi2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/phi2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/phi2.cpp.o -MF CMakeFiles/llama.dir/models/phi2.cpp.o.d -o CMakeFiles/llama.dir/models/phi2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/phi2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/phi2.cpp.o -MF CMakeFiles/llama.dir/models/phi2.cpp.o.d -o CMakeFiles/llama.dir/models/phi2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/phi2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/phi2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/phi2.cpp.i"
@@ -1420,7 +1420,7 @@ llama_build/src/CMakeFiles/llama.dir/models/phi3.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/phi3.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/phi3.cpp
 llama_build/src/CMakeFiles/llama.dir/models/phi3.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/phi3.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/phi3.cpp.o -MF CMakeFiles/llama.dir/models/phi3.cpp.o.d -o CMakeFiles/llama.dir/models/phi3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/phi3.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/phi3.cpp.o -MF CMakeFiles/llama.dir/models/phi3.cpp.o.d -o CMakeFiles/llama.dir/models/phi3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/phi3.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/phi3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/phi3.cpp.i"
@@ -1434,7 +1434,7 @@ llama_build/src/CMakeFiles/llama.dir/models/plamo.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/plamo.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plamo.cpp
 llama_build/src/CMakeFiles/llama.dir/models/plamo.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/plamo.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/plamo.cpp.o -MF CMakeFiles/llama.dir/models/plamo.cpp.o.d -o CMakeFiles/llama.dir/models/plamo.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plamo.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/plamo.cpp.o -MF CMakeFiles/llama.dir/models/plamo.cpp.o.d -o CMakeFiles/llama.dir/models/plamo.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plamo.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/plamo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/plamo.cpp.i"
@@ -1448,7 +1448,7 @@ llama_build/src/CMakeFiles/llama.dir/models/plamo2.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/plamo2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plamo2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/plamo2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/plamo2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/plamo2.cpp.o -MF CMakeFiles/llama.dir/models/plamo2.cpp.o.d -o CMakeFiles/llama.dir/models/plamo2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plamo2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/plamo2.cpp.o -MF CMakeFiles/llama.dir/models/plamo2.cpp.o.d -o CMakeFiles/llama.dir/models/plamo2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plamo2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/plamo2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/plamo2.cpp.i"
@@ -1462,7 +1462,7 @@ llama_build/src/CMakeFiles/llama.dir/models/plamo3.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/plamo3.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plamo3.cpp
 llama_build/src/CMakeFiles/llama.dir/models/plamo3.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/plamo3.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/plamo3.cpp.o -MF CMakeFiles/llama.dir/models/plamo3.cpp.o.d -o CMakeFiles/llama.dir/models/plamo3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plamo3.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/plamo3.cpp.o -MF CMakeFiles/llama.dir/models/plamo3.cpp.o.d -o CMakeFiles/llama.dir/models/plamo3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plamo3.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/plamo3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/plamo3.cpp.i"
@@ -1476,7 +1476,7 @@ llama_build/src/CMakeFiles/llama.dir/models/plm.cpp.o: llama_build/src/CMakeFile
 llama_build/src/CMakeFiles/llama.dir/models/plm.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plm.cpp
 llama_build/src/CMakeFiles/llama.dir/models/plm.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/plm.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/plm.cpp.o -MF CMakeFiles/llama.dir/models/plm.cpp.o.d -o CMakeFiles/llama.dir/models/plm.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plm.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/plm.cpp.o -MF CMakeFiles/llama.dir/models/plm.cpp.o.d -o CMakeFiles/llama.dir/models/plm.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/plm.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/plm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/plm.cpp.i"
@@ -1490,7 +1490,7 @@ llama_build/src/CMakeFiles/llama.dir/models/qwen.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/qwen.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen.cpp
 llama_build/src/CMakeFiles/llama.dir/models/qwen.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/qwen.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen.cpp.o -MF CMakeFiles/llama.dir/models/qwen.cpp.o.d -o CMakeFiles/llama.dir/models/qwen.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen.cpp.o -MF CMakeFiles/llama.dir/models/qwen.cpp.o.d -o CMakeFiles/llama.dir/models/qwen.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/qwen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/qwen.cpp.i"
@@ -1504,7 +1504,7 @@ llama_build/src/CMakeFiles/llama.dir/models/qwen2.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/qwen2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/qwen2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/qwen2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen2.cpp.o -MF CMakeFiles/llama.dir/models/qwen2.cpp.o.d -o CMakeFiles/llama.dir/models/qwen2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen2.cpp.o -MF CMakeFiles/llama.dir/models/qwen2.cpp.o.d -o CMakeFiles/llama.dir/models/qwen2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/qwen2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/qwen2.cpp.i"
@@ -1518,7 +1518,7 @@ llama_build/src/CMakeFiles/llama.dir/models/qwen2moe.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/qwen2moe.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen2moe.cpp
 llama_build/src/CMakeFiles/llama.dir/models/qwen2moe.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/qwen2moe.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen2moe.cpp.o -MF CMakeFiles/llama.dir/models/qwen2moe.cpp.o.d -o CMakeFiles/llama.dir/models/qwen2moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen2moe.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen2moe.cpp.o -MF CMakeFiles/llama.dir/models/qwen2moe.cpp.o.d -o CMakeFiles/llama.dir/models/qwen2moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen2moe.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/qwen2moe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/qwen2moe.cpp.i"
@@ -1532,7 +1532,7 @@ llama_build/src/CMakeFiles/llama.dir/models/qwen2vl.cpp.o: llama_build/src/CMake
 llama_build/src/CMakeFiles/llama.dir/models/qwen2vl.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen2vl.cpp
 llama_build/src/CMakeFiles/llama.dir/models/qwen2vl.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/qwen2vl.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen2vl.cpp.o -MF CMakeFiles/llama.dir/models/qwen2vl.cpp.o.d -o CMakeFiles/llama.dir/models/qwen2vl.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen2vl.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen2vl.cpp.o -MF CMakeFiles/llama.dir/models/qwen2vl.cpp.o.d -o CMakeFiles/llama.dir/models/qwen2vl.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen2vl.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/qwen2vl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/qwen2vl.cpp.i"
@@ -1546,7 +1546,7 @@ llama_build/src/CMakeFiles/llama.dir/models/qwen3.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/qwen3.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3.cpp
 llama_build/src/CMakeFiles/llama.dir/models/qwen3.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/qwen3.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen3.cpp.o -MF CMakeFiles/llama.dir/models/qwen3.cpp.o.d -o CMakeFiles/llama.dir/models/qwen3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen3.cpp.o -MF CMakeFiles/llama.dir/models/qwen3.cpp.o.d -o CMakeFiles/llama.dir/models/qwen3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/qwen3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/qwen3.cpp.i"
@@ -1560,7 +1560,7 @@ llama_build/src/CMakeFiles/llama.dir/models/qwen3vl.cpp.o: llama_build/src/CMake
 llama_build/src/CMakeFiles/llama.dir/models/qwen3vl.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3vl.cpp
 llama_build/src/CMakeFiles/llama.dir/models/qwen3vl.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/qwen3vl.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen3vl.cpp.o -MF CMakeFiles/llama.dir/models/qwen3vl.cpp.o.d -o CMakeFiles/llama.dir/models/qwen3vl.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3vl.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen3vl.cpp.o -MF CMakeFiles/llama.dir/models/qwen3vl.cpp.o.d -o CMakeFiles/llama.dir/models/qwen3vl.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3vl.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/qwen3vl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/qwen3vl.cpp.i"
@@ -1574,7 +1574,7 @@ llama_build/src/CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o: llama_build/src/C
 llama_build/src/CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3vl-moe.cpp
 llama_build/src/CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o -MF CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o.d -o CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3vl-moe.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o -MF CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o.d -o CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3vl-moe.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/qwen3vl-moe.cpp.i"
@@ -1588,7 +1588,7 @@ llama_build/src/CMakeFiles/llama.dir/models/qwen3moe.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/qwen3moe.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3moe.cpp
 llama_build/src/CMakeFiles/llama.dir/models/qwen3moe.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/qwen3moe.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen3moe.cpp.o -MF CMakeFiles/llama.dir/models/qwen3moe.cpp.o.d -o CMakeFiles/llama.dir/models/qwen3moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3moe.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen3moe.cpp.o -MF CMakeFiles/llama.dir/models/qwen3moe.cpp.o.d -o CMakeFiles/llama.dir/models/qwen3moe.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3moe.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/qwen3moe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/qwen3moe.cpp.i"
@@ -1602,7 +1602,7 @@ llama_build/src/CMakeFiles/llama.dir/models/qwen3next.cpp.o: llama_build/src/CMa
 llama_build/src/CMakeFiles/llama.dir/models/qwen3next.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3next.cpp
 llama_build/src/CMakeFiles/llama.dir/models/qwen3next.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/qwen3next.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen3next.cpp.o -MF CMakeFiles/llama.dir/models/qwen3next.cpp.o.d -o CMakeFiles/llama.dir/models/qwen3next.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3next.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/qwen3next.cpp.o -MF CMakeFiles/llama.dir/models/qwen3next.cpp.o.d -o CMakeFiles/llama.dir/models/qwen3next.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/qwen3next.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/qwen3next.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/qwen3next.cpp.i"
@@ -1616,7 +1616,7 @@ llama_build/src/CMakeFiles/llama.dir/models/refact.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/refact.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/refact.cpp
 llama_build/src/CMakeFiles/llama.dir/models/refact.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/refact.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/refact.cpp.o -MF CMakeFiles/llama.dir/models/refact.cpp.o.d -o CMakeFiles/llama.dir/models/refact.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/refact.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/refact.cpp.o -MF CMakeFiles/llama.dir/models/refact.cpp.o.d -o CMakeFiles/llama.dir/models/refact.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/refact.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/refact.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/refact.cpp.i"
@@ -1630,7 +1630,7 @@ llama_build/src/CMakeFiles/llama.dir/models/rnd1.cpp.o: llama_build/src/CMakeFil
 llama_build/src/CMakeFiles/llama.dir/models/rnd1.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rnd1.cpp
 llama_build/src/CMakeFiles/llama.dir/models/rnd1.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/rnd1.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rnd1.cpp.o -MF CMakeFiles/llama.dir/models/rnd1.cpp.o.d -o CMakeFiles/llama.dir/models/rnd1.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rnd1.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rnd1.cpp.o -MF CMakeFiles/llama.dir/models/rnd1.cpp.o.d -o CMakeFiles/llama.dir/models/rnd1.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rnd1.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/rnd1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/rnd1.cpp.i"
@@ -1644,7 +1644,7 @@ llama_build/src/CMakeFiles/llama.dir/models/rwkv6-base.cpp.o: llama_build/src/CM
 llama_build/src/CMakeFiles/llama.dir/models/rwkv6-base.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv6-base.cpp
 llama_build/src/CMakeFiles/llama.dir/models/rwkv6-base.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/rwkv6-base.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rwkv6-base.cpp.o -MF CMakeFiles/llama.dir/models/rwkv6-base.cpp.o.d -o CMakeFiles/llama.dir/models/rwkv6-base.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv6-base.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rwkv6-base.cpp.o -MF CMakeFiles/llama.dir/models/rwkv6-base.cpp.o.d -o CMakeFiles/llama.dir/models/rwkv6-base.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv6-base.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/rwkv6-base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/rwkv6-base.cpp.i"
@@ -1658,7 +1658,7 @@ llama_build/src/CMakeFiles/llama.dir/models/rwkv6.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/rwkv6.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv6.cpp
 llama_build/src/CMakeFiles/llama.dir/models/rwkv6.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/rwkv6.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rwkv6.cpp.o -MF CMakeFiles/llama.dir/models/rwkv6.cpp.o.d -o CMakeFiles/llama.dir/models/rwkv6.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv6.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rwkv6.cpp.o -MF CMakeFiles/llama.dir/models/rwkv6.cpp.o.d -o CMakeFiles/llama.dir/models/rwkv6.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv6.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/rwkv6.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/rwkv6.cpp.i"
@@ -1672,7 +1672,7 @@ llama_build/src/CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o: llama_build/src/CM
 llama_build/src/CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv6qwen2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o -MF CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o.d -o CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv6qwen2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o -MF CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o.d -o CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv6qwen2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/rwkv6qwen2.cpp.i"
@@ -1686,7 +1686,7 @@ llama_build/src/CMakeFiles/llama.dir/models/rwkv7-base.cpp.o: llama_build/src/CM
 llama_build/src/CMakeFiles/llama.dir/models/rwkv7-base.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv7-base.cpp
 llama_build/src/CMakeFiles/llama.dir/models/rwkv7-base.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/rwkv7-base.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rwkv7-base.cpp.o -MF CMakeFiles/llama.dir/models/rwkv7-base.cpp.o.d -o CMakeFiles/llama.dir/models/rwkv7-base.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv7-base.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rwkv7-base.cpp.o -MF CMakeFiles/llama.dir/models/rwkv7-base.cpp.o.d -o CMakeFiles/llama.dir/models/rwkv7-base.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv7-base.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/rwkv7-base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/rwkv7-base.cpp.i"
@@ -1700,7 +1700,7 @@ llama_build/src/CMakeFiles/llama.dir/models/rwkv7.cpp.o: llama_build/src/CMakeFi
 llama_build/src/CMakeFiles/llama.dir/models/rwkv7.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv7.cpp
 llama_build/src/CMakeFiles/llama.dir/models/rwkv7.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/rwkv7.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rwkv7.cpp.o -MF CMakeFiles/llama.dir/models/rwkv7.cpp.o.d -o CMakeFiles/llama.dir/models/rwkv7.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv7.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/rwkv7.cpp.o -MF CMakeFiles/llama.dir/models/rwkv7.cpp.o.d -o CMakeFiles/llama.dir/models/rwkv7.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/rwkv7.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/rwkv7.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/rwkv7.cpp.i"
@@ -1714,7 +1714,7 @@ llama_build/src/CMakeFiles/llama.dir/models/seed-oss.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/seed-oss.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/seed-oss.cpp
 llama_build/src/CMakeFiles/llama.dir/models/seed-oss.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/seed-oss.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/seed-oss.cpp.o -MF CMakeFiles/llama.dir/models/seed-oss.cpp.o.d -o CMakeFiles/llama.dir/models/seed-oss.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/seed-oss.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/seed-oss.cpp.o -MF CMakeFiles/llama.dir/models/seed-oss.cpp.o.d -o CMakeFiles/llama.dir/models/seed-oss.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/seed-oss.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/seed-oss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/seed-oss.cpp.i"
@@ -1728,7 +1728,7 @@ llama_build/src/CMakeFiles/llama.dir/models/smallthinker.cpp.o: llama_build/src/
 llama_build/src/CMakeFiles/llama.dir/models/smallthinker.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/smallthinker.cpp
 llama_build/src/CMakeFiles/llama.dir/models/smallthinker.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/smallthinker.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/smallthinker.cpp.o -MF CMakeFiles/llama.dir/models/smallthinker.cpp.o.d -o CMakeFiles/llama.dir/models/smallthinker.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/smallthinker.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/smallthinker.cpp.o -MF CMakeFiles/llama.dir/models/smallthinker.cpp.o.d -o CMakeFiles/llama.dir/models/smallthinker.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/smallthinker.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/smallthinker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/smallthinker.cpp.i"
@@ -1742,7 +1742,7 @@ llama_build/src/CMakeFiles/llama.dir/models/smollm3.cpp.o: llama_build/src/CMake
 llama_build/src/CMakeFiles/llama.dir/models/smollm3.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/smollm3.cpp
 llama_build/src/CMakeFiles/llama.dir/models/smollm3.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/smollm3.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/smollm3.cpp.o -MF CMakeFiles/llama.dir/models/smollm3.cpp.o.d -o CMakeFiles/llama.dir/models/smollm3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/smollm3.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/smollm3.cpp.o -MF CMakeFiles/llama.dir/models/smollm3.cpp.o.d -o CMakeFiles/llama.dir/models/smollm3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/smollm3.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/smollm3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/smollm3.cpp.i"
@@ -1756,7 +1756,7 @@ llama_build/src/CMakeFiles/llama.dir/models/stablelm.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/stablelm.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/stablelm.cpp
 llama_build/src/CMakeFiles/llama.dir/models/stablelm.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/stablelm.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/stablelm.cpp.o -MF CMakeFiles/llama.dir/models/stablelm.cpp.o.d -o CMakeFiles/llama.dir/models/stablelm.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/stablelm.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/stablelm.cpp.o -MF CMakeFiles/llama.dir/models/stablelm.cpp.o.d -o CMakeFiles/llama.dir/models/stablelm.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/stablelm.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/stablelm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/stablelm.cpp.i"
@@ -1770,7 +1770,7 @@ llama_build/src/CMakeFiles/llama.dir/models/starcoder.cpp.o: llama_build/src/CMa
 llama_build/src/CMakeFiles/llama.dir/models/starcoder.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/starcoder.cpp
 llama_build/src/CMakeFiles/llama.dir/models/starcoder.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/starcoder.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/starcoder.cpp.o -MF CMakeFiles/llama.dir/models/starcoder.cpp.o.d -o CMakeFiles/llama.dir/models/starcoder.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/starcoder.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/starcoder.cpp.o -MF CMakeFiles/llama.dir/models/starcoder.cpp.o.d -o CMakeFiles/llama.dir/models/starcoder.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/starcoder.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/starcoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/starcoder.cpp.i"
@@ -1784,7 +1784,7 @@ llama_build/src/CMakeFiles/llama.dir/models/starcoder2.cpp.o: llama_build/src/CM
 llama_build/src/CMakeFiles/llama.dir/models/starcoder2.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/starcoder2.cpp
 llama_build/src/CMakeFiles/llama.dir/models/starcoder2.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/starcoder2.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/starcoder2.cpp.o -MF CMakeFiles/llama.dir/models/starcoder2.cpp.o.d -o CMakeFiles/llama.dir/models/starcoder2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/starcoder2.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/starcoder2.cpp.o -MF CMakeFiles/llama.dir/models/starcoder2.cpp.o.d -o CMakeFiles/llama.dir/models/starcoder2.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/starcoder2.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/starcoder2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/starcoder2.cpp.i"
@@ -1798,7 +1798,7 @@ llama_build/src/CMakeFiles/llama.dir/models/t5-dec.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/t5-dec.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/t5-dec.cpp
 llama_build/src/CMakeFiles/llama.dir/models/t5-dec.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/t5-dec.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/t5-dec.cpp.o -MF CMakeFiles/llama.dir/models/t5-dec.cpp.o.d -o CMakeFiles/llama.dir/models/t5-dec.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/t5-dec.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/t5-dec.cpp.o -MF CMakeFiles/llama.dir/models/t5-dec.cpp.o.d -o CMakeFiles/llama.dir/models/t5-dec.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/t5-dec.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/t5-dec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/t5-dec.cpp.i"
@@ -1812,7 +1812,7 @@ llama_build/src/CMakeFiles/llama.dir/models/t5-enc.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/t5-enc.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/t5-enc.cpp
 llama_build/src/CMakeFiles/llama.dir/models/t5-enc.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/t5-enc.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/t5-enc.cpp.o -MF CMakeFiles/llama.dir/models/t5-enc.cpp.o.d -o CMakeFiles/llama.dir/models/t5-enc.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/t5-enc.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/t5-enc.cpp.o -MF CMakeFiles/llama.dir/models/t5-enc.cpp.o.d -o CMakeFiles/llama.dir/models/t5-enc.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/t5-enc.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/t5-enc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/t5-enc.cpp.i"
@@ -1826,7 +1826,7 @@ llama_build/src/CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o: llama_build/
 llama_build/src/CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/wavtokenizer-dec.cpp
 llama_build/src/CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o -MF CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o.d -o CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/wavtokenizer-dec.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o -MF CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o.d -o CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/wavtokenizer-dec.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/wavtokenizer-dec.cpp.i"
@@ -1840,7 +1840,7 @@ llama_build/src/CMakeFiles/llama.dir/models/xverse.cpp.o: llama_build/src/CMakeF
 llama_build/src/CMakeFiles/llama.dir/models/xverse.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/xverse.cpp
 llama_build/src/CMakeFiles/llama.dir/models/xverse.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/xverse.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/xverse.cpp.o -MF CMakeFiles/llama.dir/models/xverse.cpp.o.d -o CMakeFiles/llama.dir/models/xverse.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/xverse.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/xverse.cpp.o -MF CMakeFiles/llama.dir/models/xverse.cpp.o.d -o CMakeFiles/llama.dir/models/xverse.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/xverse.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/xverse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/xverse.cpp.i"
@@ -1854,7 +1854,7 @@ llama_build/src/CMakeFiles/llama.dir/models/mistral3.cpp.o: llama_build/src/CMak
 llama_build/src/CMakeFiles/llama.dir/models/mistral3.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mistral3.cpp
 llama_build/src/CMakeFiles/llama.dir/models/mistral3.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/mistral3.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/mistral3.cpp.o -MF CMakeFiles/llama.dir/models/mistral3.cpp.o.d -o CMakeFiles/llama.dir/models/mistral3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mistral3.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/mistral3.cpp.o -MF CMakeFiles/llama.dir/models/mistral3.cpp.o.d -o CMakeFiles/llama.dir/models/mistral3.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/mistral3.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/mistral3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/mistral3.cpp.i"
@@ -1868,7 +1868,7 @@ llama_build/src/CMakeFiles/llama.dir/models/graph-context-mamba.cpp.o: llama_bui
 llama_build/src/CMakeFiles/llama.dir/models/graph-context-mamba.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/graph-context-mamba.cpp
 llama_build/src/CMakeFiles/llama.dir/models/graph-context-mamba.cpp.o: llama_build/src/CMakeFiles/llama.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object llama_build/src/CMakeFiles/llama.dir/models/graph-context-mamba.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/graph-context-mamba.cpp.o -MF CMakeFiles/llama.dir/models/graph-context-mamba.cpp.o.d -o CMakeFiles/llama.dir/models/graph-context-mamba.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/graph-context-mamba.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/llama_build/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT llama_build/src/CMakeFiles/llama.dir/models/graph-context-mamba.cpp.o -MF CMakeFiles/llama.dir/models/graph-context-mamba.cpp.o.d -o CMakeFiles/llama.dir/models/graph-context-mamba.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/models/graph-context-mamba.cpp
 
 llama_build/src/CMakeFiles/llama.dir/models/graph-context-mamba.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama.dir/models/graph-context-mamba.cpp.i"

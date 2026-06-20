@@ -76,7 +76,7 @@ whisper_lib/src/CMakeFiles/whisper.dir/whisper.cpp.o: whisper_lib/src/CMakeFiles
 whisper_lib/src/CMakeFiles/whisper.dir/whisper.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/src/whisper.cpp
 whisper_lib/src/CMakeFiles/whisper.dir/whisper.cpp.o: whisper_lib/src/CMakeFiles/whisper.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/greys/Documents/Doc/C+/my_progect/ai/assi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object whisper_lib/src/CMakeFiles/whisper.dir/whisper.cpp.o"
-	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/src/CMakeFiles/whisper.dir/whisper.cpp.o -MF CMakeFiles/whisper.dir/whisper.cpp.o.d -o CMakeFiles/whisper.dir/whisper.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/src/whisper.cpp
+	cd /home/greys/Documents/Doc/C+/my_progect/ai/assi/build/whisper_lib/src && ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT whisper_lib/src/CMakeFiles/whisper.dir/whisper.cpp.o -MF CMakeFiles/whisper.dir/whisper.cpp.o.d -o CMakeFiles/whisper.dir/whisper.cpp.o -c /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/src/whisper.cpp
 
 whisper_lib/src/CMakeFiles/whisper.dir/whisper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/whisper.dir/whisper.cpp.i"

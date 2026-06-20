@@ -189,4 +189,21 @@ CMakeFiles/app.dir/main.cpp.o: \
  /usr/include/c++/16.1.1/bits/fstream.tcc \
  /home/greys/Documents/Doc/C+/my_progect/ai/assi/../piper1-gpl/libpiper/include/piper.h \
  /usr/include/uchar.h \
- /home/greys/Documents/Doc/C+/my_progect/ai/assi/../piper_my/Alsa.h
+ /home/greys/Documents/Doc/C+/my_progect/ai/assi/../piper_my/Alsa.h \
+ /usr/include/c++/16.1.1/memory \
+ /usr/include/c++/16.1.1/bits/stl_tempbuf.h \
+ /usr/include/c++/16.1.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/16.1.1/bits/align.h \
+ /usr/include/c++/16.1.1/bits/uses_allocator.h \
+ /usr/include/c++/16.1.1/bits/unique_ptr.h /usr/include/c++/16.1.1/tuple \
+ /usr/include/c++/16.1.1/bits/invoke.h \
+ /usr/include/c++/16.1.1/bits/shared_ptr.h \
+ /usr/include/c++/16.1.1/bits/shared_ptr_base.h \
+ /usr/include/c++/16.1.1/bits/allocated_ptr.h \
+ /usr/include/c++/16.1.1/bits/refwrap.h \
+ /usr/include/c++/16.1.1/ext/aligned_buffer.h \
+ /usr/include/c++/16.1.1/ext/concurrence.h \
+ /usr/include/c++/16.1.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/16.1.1/bits/atomic_base.h \
+ /usr/include/c++/16.1.1/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/16.1.1/backward/auto_ptr.h

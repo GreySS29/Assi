@@ -1120,10 +1120,15 @@ CMakeFiles/app.dir/main.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/assi/m
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/c++/16.1.1/backward/auto_ptr.h \
   /usr/include/c++/16.1.1/backward/binders.h \
   /usr/include/c++/16.1.1/bit \
+  /usr/include/c++/16.1.1/bits/align.h \
   /usr/include/c++/16.1.1/bits/alloc_traits.h \
+  /usr/include/c++/16.1.1/bits/allocated_ptr.h \
   /usr/include/c++/16.1.1/bits/allocator.h \
+  /usr/include/c++/16.1.1/bits/atomic_base.h \
+  /usr/include/c++/16.1.1/bits/atomic_lockfree_defines.h \
   /usr/include/c++/16.1.1/bits/basic_ios.h \
   /usr/include/c++/16.1.1/bits/basic_ios.tcc \
   /usr/include/c++/16.1.1/bits/basic_string.h \
@@ -1143,6 +1148,7 @@ CMakeFiles/app.dir/main.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/assi/m
   /usr/include/c++/16.1.1/bits/functexcept.h \
   /usr/include/c++/16.1.1/bits/functional_hash.h \
   /usr/include/c++/16.1.1/bits/hash_bytes.h \
+  /usr/include/c++/16.1.1/bits/invoke.h \
   /usr/include/c++/16.1.1/bits/ios_base.h \
   /usr/include/c++/16.1.1/bits/istream.tcc \
   /usr/include/c++/16.1.1/bits/locale_classes.h \
@@ -1164,7 +1170,11 @@ CMakeFiles/app.dir/main.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/assi/m
   /usr/include/c++/16.1.1/bits/predefined_ops.h \
   /usr/include/c++/16.1.1/bits/ptr_traits.h \
   /usr/include/c++/16.1.1/bits/range_access.h \
+  /usr/include/c++/16.1.1/bits/refwrap.h \
   /usr/include/c++/16.1.1/bits/requires_hosted.h \
+  /usr/include/c++/16.1.1/bits/shared_ptr.h \
+  /usr/include/c++/16.1.1/bits/shared_ptr_atomic.h \
+  /usr/include/c++/16.1.1/bits/shared_ptr_base.h \
   /usr/include/c++/16.1.1/bits/std_abs.h \
   /usr/include/c++/16.1.1/bits/stdexcept_except.h \
   /usr/include/c++/16.1.1/bits/stdexcept_throw.h \
@@ -1177,11 +1187,15 @@ CMakeFiles/app.dir/main.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/assi/m
   /usr/include/c++/16.1.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/16.1.1/bits/stl_iterator_base_types.h \
   /usr/include/c++/16.1.1/bits/stl_pair.h \
+  /usr/include/c++/16.1.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/16.1.1/bits/stl_tempbuf.h \
   /usr/include/c++/16.1.1/bits/stl_uninitialized.h \
   /usr/include/c++/16.1.1/bits/stl_vector.h \
   /usr/include/c++/16.1.1/bits/streambuf.tcc \
   /usr/include/c++/16.1.1/bits/streambuf_iterator.h \
   /usr/include/c++/16.1.1/bits/stringfwd.h \
+  /usr/include/c++/16.1.1/bits/unique_ptr.h \
+  /usr/include/c++/16.1.1/bits/uses_allocator.h \
   /usr/include/c++/16.1.1/bits/utility.h \
   /usr/include/c++/16.1.1/bits/vector.tcc \
   /usr/include/c++/16.1.1/bits/version.h \
@@ -1196,8 +1210,10 @@ CMakeFiles/app.dir/main.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/assi/m
   /usr/include/c++/16.1.1/debug/assertions.h \
   /usr/include/c++/16.1.1/debug/debug.h \
   /usr/include/c++/16.1.1/exception \
+  /usr/include/c++/16.1.1/ext/aligned_buffer.h \
   /usr/include/c++/16.1.1/ext/alloc_traits.h \
   /usr/include/c++/16.1.1/ext/atomicity.h \
+  /usr/include/c++/16.1.1/ext/concurrence.h \
   /usr/include/c++/16.1.1/ext/numeric_traits.h \
   /usr/include/c++/16.1.1/ext/string_conversions.h \
   /usr/include/c++/16.1.1/ext/type_traits.h \
@@ -1207,6 +1223,7 @@ CMakeFiles/app.dir/main.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/assi/m
   /usr/include/c++/16.1.1/iosfwd \
   /usr/include/c++/16.1.1/iostream \
   /usr/include/c++/16.1.1/istream \
+  /usr/include/c++/16.1.1/memory \
   /usr/include/c++/16.1.1/new \
   /usr/include/c++/16.1.1/ostream \
   /usr/include/c++/16.1.1/stdexcept \
@@ -1214,6 +1231,7 @@ CMakeFiles/app.dir/main.cpp.o: /home/greys/Documents/Doc/C+/my_progect/ai/assi/m
   /usr/include/c++/16.1.1/streambuf \
   /usr/include/c++/16.1.1/string \
   /usr/include/c++/16.1.1/system_error \
+  /usr/include/c++/16.1.1/tuple \
   /usr/include/c++/16.1.1/type_traits \
   /usr/include/c++/16.1.1/typeinfo \
   /usr/include/c++/16.1.1/vector \
@@ -1326,8 +1344,6 @@ CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.c
 
 /usr/lib32/libdl.so.2:
 
-/usr/lib/libmvec.so.1:
-
 /usr/lib/libm.so.6:
 
 /usr/lib/libasound.so:
@@ -1352,6 +1368,32 @@ CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.c
 
 /home/greys/Documents/Doc/C+/my_progect/ai/piper1-gpl/libpiper/build/libpiper.so:
 
+/usr/include/c++/16.1.1/memory:
+
+/usr/include/c++/16.1.1/ext/concurrence.h:
+
+/usr/include/c++/16.1.1/ext/aligned_buffer.h:
+
+/usr/include/c++/16.1.1/bits/unique_ptr.h:
+
+/usr/include/c++/16.1.1/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/16.1.1/bits/shared_ptr.h:
+
+/usr/include/c++/16.1.1/bits/shared_ptr_base.h:
+
+/usr/include/c++/16.1.1/bits/refwrap.h:
+
+/usr/include/c++/16.1.1/bits/invoke.h:
+
+/usr/include/c++/16.1.1/bits/atomic_lockfree_defines.h:
+
+/usr/lib/libmvec.so.1:
+
+/usr/include/c++/16.1.1/bits/allocated_ptr.h:
+
+/usr/include/c++/16.1.1/bits/align.h:
+
 /home/greys/Documents/Doc/C+/my_progect/ai/assi/main.cpp:
 
 /home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.h:
@@ -1361,6 +1403,8 @@ CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.c
 /home/greys/Documents/Doc/C+/my_progect/ai/wisper_my/my_whisper.cpp:
 
 /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++io.h:
+
+/usr/include/c++/16.1.1/bits/stl_tempbuf.h:
 
 /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/basic_file.h:
 
@@ -1395,6 +1439,8 @@ whisper_lib/src/libwhisper.so.1.8.4:
 /usr/include/ctype.h:
 
 /usr/include/c++/16.1.1/bits/new_allocator.h:
+
+/usr/include/c++/16.1.1/tuple:
 
 /usr/include/bits/types/__sigset_t.h:
 
@@ -1610,6 +1656,8 @@ whisper_lib/ggml/src/libggml.so.0.9.8:
 
 /usr/include/c++/16.1.1/vector:
 
+/usr/include/c++/16.1.1/bits/atomic_base.h:
+
 /usr/include/bits/types/cookie_io_functions_t.h:
 
 /usr/include/asm/errno.h:
@@ -1768,6 +1816,8 @@ CMakeFiles/app.dir/home/greys/Documents/Doc/C+/my_progect/ai/llama_my/my_llama.c
 
 /usr/include/c++/16.1.1/ext/alloc_traits.h:
 
+/usr/include/c++/16.1.1/bits/uses_allocator.h:
+
 /usr/include/linux/errno.h:
 
 /home/greys/Documents/Doc/C+/my_progect/ai/piper_my/my_piper.cpp:
@@ -1868,6 +1918,8 @@ CMakeFiles/app.dir/main.cpp.o:
 
 /usr/include/sys/cdefs.h:
 
+/usr/include/c++/16.1.1/backward/auto_ptr.h:
+
 /usr/include/c++/16.1.1/bits/erase_if.h:
 
 /usr/include/alsa/conf.h:
@@ -1893,6 +1945,8 @@ CMakeFiles/app.dir/main.cpp.o:
 /home/greys/Documents/Doc/C+/my_progect/ai/piper_my/alsa.cpp:
 
 /usr/include/alsa/error.h:
+
+/usr/include/c++/16.1.1/bits/shared_ptr_atomic.h:
 
 /usr/include/alsa/version.h:
 
