@@ -1,6 +1,6 @@
 #include "my_piper.h"
 
-My_piper::My_piper(const char* respond, const char* input)
+My_piper::My_piper(const char* input)
 {
     alsa = new Alsa(input);
     if (!alsa->get_pcm()) {
@@ -15,6 +15,12 @@ My_piper::My_piper(const char* respond, const char* input)
 
     if (!synth) std::cerr << "Failed to create synthesizer" << std::endl;
 
+    
+}
+    
+
+void My_piper::start(const char* respond)
+{
     piper_synthesize_options options = piper_default_synthesize_options(synth);
     piper_synthesize_start(synth,respond, &options);
 

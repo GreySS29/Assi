@@ -39,9 +39,9 @@ Llama::~Llama()
 }
 
 
-string Llama::llm_generate(const string& prompt)
+string Llama::llm_generate(const string& prompt, const string& system)
 {
-    string system = "You are usefull assistent. Answer in 1–2 short sentences. ";
+   
     string full_prompt = system + prompt + "\nAssi: ";
     
 

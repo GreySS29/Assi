@@ -10,8 +10,9 @@
 class My_piper {
     public:
 
-    My_piper(const char*, const char*);
+    My_piper(const char* input);
     ~My_piper();
+    void start (const char*);
 
     private:
     piper_synthesizer *synth;

@@ -3,8 +3,11 @@
 Alsa::Alsa(const char* input)
 {
     err = snd_pcm_open(&pcm, input, SND_PCM_STREAM_PLAYBACK, 0);
-    if (err < 0) std::cerr << "ALSA open error: " << snd_strerror(err) << std::endl;
-
+    std::cout << input << '\n';
+    if (err < 0) {
+        std::cerr << "ALSA open error: " << snd_strerror(err) << std::endl;
+        return;
+    }
 
     snd_pcm_hw_params_alloca(&params);
     snd_pcm_hw_params_any(pcm, params);

@@ -1,6 +1,5 @@
 #include "my_whisper.h" 
 
-
     VoiceOperate::VoiceOperate(const char* input) {
         cparams = whisper_context_default_params();
         whisper_P_ctx=whisper_init_from_file_with_params("../../whisper.cpp/models/ggml-small.en.bin", cparams);
@@ -17,7 +16,7 @@
         );
 
         if (rc < 0) {
-            throw std::runtime_error(std::string("snd_pcm_open failed: ") + snd_strerror(rc));
+            throw std::runtime_error(std::string("snd_pcm_open failed: ")+ snd_strerror(rc));
         }
 
         rc = snd_pcm_set_params(capture_handle,SND_PCM_FORMAT_FLOAT_LE,

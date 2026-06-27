@@ -7,34 +7,55 @@
 
 const char start {'s'};
 const char end {'q'};
-const char* inputAlsa  {"plughw:3,0"};
-const char* mic_devices[] = {"plughw:0,0", "plughw:1,0", "plughw:2,0", "default"};
-
+const char* mic_devices[] = {"plughw:0,0", "plughw:1,0", "plughw:2,0","default"};
+const char* output_devices[] = {"plughw:3,0","plughw:3,2","default"};
+const string system = "You are English teacher. Answer very shortly, 1 or 2 sentences and stop";
 
 int main () 
 {
     char but {};
     string input {};
     std::unique_ptr<VoiceOperate> voice;
+    std::unique_ptr<My_piper> piper;
     Llama llama;
 
-
-    bool voice_created = false;
+    bool mic_created = false;
     for (const char* device : mic_devices) {
         try {
             voice = std::make_unique<VoiceOperate>(device);
-            voice_created = true;
+            mic_created = true;
             std::cout << "Микрофон успешно создан: " << device << '\n';
             break;  
         }
         catch (const std::exception& e) {
             std::cerr << "Ошибка с " << device << ": " << e.what() << '\n';
-            break; 
+            continue;
+            
         }
     }
-    
-    if (!voice_created) {
+
+    bool piper_created = false;
+    for (const char* device : output_devices){
+        try {
+            piper = std::make_unique<My_piper>(device);
+            piper_created = true;
+            std::cout << "Piper created: " << device << '\n';
+            break;
+        }
+        catch (const std:: exception& e){
+            std::cerr << "Error: " << device << ": " << e.what() << '\n';
+            continue;
+           
+        }
+    }
+
+    if (!mic_created) {
         std::cerr << "Не удалось создать VoiceOperate ни с одним устройством\n";
+        return 1;
+    }
+
+     if (!piper_created) {
+        std::cerr << "Не удалось создать Piper ни с одним устройством\n";
         return 1;
     }
 
@@ -54,9 +75,9 @@ int main ()
                     return 1;
                 } 
                 std::cout << input << '\n';
-                string answer = llama.llm_generate(input);
+                string answer = llama.llm_generate(input,system);
                 std::cout << answer<<'\n';
-                My_piper piper(answer.data(),inputAlsa);
+                piper->start(answer.data());
                 std::cout << answer << '\n';
                 
             }
