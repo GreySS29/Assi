@@ -3,9 +3,9 @@ whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o: \
  /usr/include/stdc-predef.h \
  /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/../include/ggml-alloc.h \
  /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/../include/ggml.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
@@ -15,7 +15,7 @@ whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o: \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
@@ -51,8 +51,8 @@ whisper_lib/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o: \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/types/once_flag.h \
  /usr/include/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/strings.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/limits.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/syslimits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/pthread_stack_min-dynamic.h \

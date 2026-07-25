@@ -4,9 +4,9 @@ llama_build/src/CMakeFiles/llama.dir/llama-cparams.cpp.o: \
  /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/llama-cparams.h \
  /home/greys/Documents/Doc/C+/my_progect/ai/llama.cpp/src/../include/llama.h \
  /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/../include/ggml.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
@@ -16,7 +16,7 @@ llama_build/src/CMakeFiles/llama.dir/llama-cparams.cpp.o: \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
@@ -27,8 +27,8 @@ llama_build/src/CMakeFiles/llama.dir/llama-cparams.cpp.o: \
  /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/../include/ggml-backend.h \
  /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/../include/ggml-alloc.h \
  /home/greys/Documents/Doc/C+/my_progect/ai/whisper.cpp/ggml/src/../include/ggml-opt.h \
- /usr/include/c++/16.1.1/cstdint \
- /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
- /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
- /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
- /usr/include/c++/16.1.1/pstl/pstl_config.h
+ /usr/include/c++/16/cstdint \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /usr/include/c++/16/pstl/pstl_config.h

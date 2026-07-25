@@ -5,11 +5,13 @@
 #include <memory>
 #include <string>
 
+using   str = std::string;
+
 const char start {'s'};
 const char end {'q'};
 const char* mic_devices[] = {"plughw:0,0", "plughw:1,0", "plughw:2,0","default"};
 const char* output_devices[] = {"plughw:3,0","plughw:3,2","default"};
-const string system = "You are English teacher. Answer very shortly, 1 or 2 sentences and stop";
+const str system_prompt = "You are English teacher. Answer very shortly, 1 or 2 sentences and stop";
 
 int main () 
 {
@@ -75,10 +77,10 @@ int main ()
                     return 1;
                 } 
                 std::cout << input << '\n';
-                string answer = llama.llm_generate(input,system);
+                string answer = llama.llm_generate(input,system_prompt);
                 std::cout << answer<<'\n';
                 piper->start(answer.data());
-                std::cout << answer << '\n';
+                
                 
             }
         }

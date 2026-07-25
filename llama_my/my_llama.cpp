@@ -39,49 +39,119 @@ Llama::~Llama()
 }
 
 
+// string Llama::llm_generate(const string& prompt, const string& system)
+// {
+   
+//     string full_prompt =
+//     "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n" + system +
+//     "\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n" + prompt +
+//     "\n<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n";
+    
+//     if (response.find("User:") != std::string::npos) {
+//     response = response.substr(0, response.find("User:"));
+//     break;
+// }
+//     if (llama_vocab_is_eog(vocab_, tok))
+//     break;
+
+//     int n_prompt = -llama_tokenize(vocab_,full_prompt.c_str(),
+//         full_prompt.size(), nullptr, 0 , true, true);
+//     //Если вы передаете nullptr в качестве буфера (аргумент tokens), функция не записывает токены, а просто возвращает количество токенов, которое было бы записано, если бы вы выделили достаточно места.
+//     //Отрицательное значение: Если количество токенов получается больше, чем размер переданного буфера (в вашем случае 0), функция возвращает отрицательное число, модуль которого равен требуемому количеству. Например, если нужно 15 токенов, функция вернет -15.
+
+//     if(n_prompt <=0) error("Tokenizition error");
+
+//     std::vector<llama_token> tokens(n_prompt); // n_prompt дает количество 
+//     int written = llama_tokenize(vocab_, full_prompt.c_str(), 
+//         full_prompt.size(), tokens.data(),tokens.size(), true,true);
+
+//     if(written<0) error("Tokenizition error");
+
+//     llama_batch batch = llama_batch_get_one(tokens.data(), written);
+    
+//     if (llama_decode(ctx_, batch) !=0) error ("llama_decode error");
+
+//     string response;
+//     for(int i=0; i <64; ++i)
+//     {
+//         llama_token tok = llama_sampler_sample(sampler_,ctx_, -1);
+
+//         if (llama_vocab_is_eog(vocab_, tok)) break;
+//          if (response.find("\nMe:") != std::string::npos) break;
+
+//         char buf[64];
+//         int n = llama_token_to_piece(vocab_, tok, buf,sizeof(buf),0,true);
+
+//         if (n<0) break;
+
+//         response.append(buf,n);
+
+//         batch = llama_batch_get_one(&tok,1);
+//         if(llama_decode(ctx_, batch) !=0) break;
+//     }
+
+//     return response;
+// };
+
+
 string Llama::llm_generate(const string& prompt, const string& system)
 {
-   
-    string full_prompt = system + prompt + "\nAssi: ";
-    
+    string full_prompt =
+    "<|start_header_id|>system<|end_header_id|>\n"
+    + system +
+    "\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n"
+    + prompt +
+    "\n<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n";
 
-    int n_prompt = -llama_tokenize(vocab_,full_prompt.c_str(),
-        full_prompt.size(), nullptr, 0 , true, true);
-    //Если вы передаете nullptr в качестве буфера (аргумент tokens), функция не записывает токены, а просто возвращает количество токенов, которое было бы записано, если бы вы выделили достаточно места.
-    //Отрицательное значение: Если количество токенов получается больше, чем размер переданного буфера (в вашем случае 0), функция возвращает отрицательное число, модуль которого равен требуемому количеству. Например, если нужно 15 токенов, функция вернет -15.
+    int n_prompt = -llama_tokenize(
+        vocab_,
+        full_prompt.c_str(),
+        full_prompt.size(),
+        nullptr,
+        0,
+        true,
+        true
+    );
 
-    if(n_prompt <=0) error("Tokenizition error");
+    if (n_prompt <= 0) error("Tokenization error");
 
-    std::vector<llama_token> tokens(n_prompt); // n_prompt дает количество 
-    int written = llama_tokenize(vocab_, full_prompt.c_str(), 
-        full_prompt.size(), tokens.data(),tokens.size(), true,true);
+    std::vector<llama_token> tokens(n_prompt);
 
-    if(written<0) error("Tokenizition error");
+    int written = llama_tokenize(
+        vocab_,
+        full_prompt.c_str(),
+        full_prompt.size(),
+        tokens.data(),
+        tokens.size(),
+        true,
+        true
+    );
+
+    if (written < 0) error("Tokenization error");
 
     llama_batch batch = llama_batch_get_one(tokens.data(), written);
-    
-    if (llama_decode(ctx_, batch) !=0) error ("llama_decode error");
+
+    if (llama_decode(ctx_, batch) != 0) error("llama_decode error");
 
     string response;
-    for(int i=0; i <64; ++i)
+
+    for (int i = 0; i < 256; ++i)
     {
-        llama_token tok = llama_sampler_sample(sampler_,ctx_, -1);
+        llama_token tok = llama_sampler_sample(sampler_, ctx_, -1);
 
         if (llama_vocab_is_eog(vocab_, tok)) break;
-         if (response.find("\nMe:") != std::string::npos) break;
 
         char buf[64];
-        int n = llama_token_to_piece(vocab_, tok, buf,sizeof(buf),0,true);
+        int n = llama_token_to_piece(vocab_, tok, buf, sizeof(buf), 0, true);
 
-        if (n<0) break;
+        if (n < 0) break;
 
-        response.append(buf,n);
+        response.append(buf, n);
 
-        batch = llama_batch_get_one(&tok,1);
-        if(llama_decode(ctx_, batch) !=0) break;
+        llama_batch next = llama_batch_get_one(&tok, 1);
+        if (llama_decode(ctx_, next) != 0) break;
     }
 
     return response;
-};
-
+}
 
