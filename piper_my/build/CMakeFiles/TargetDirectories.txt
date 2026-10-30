@@ -1,3 +1,0 @@
-/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/build/CMakeFiles/app.dir
-/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/build/CMakeFiles/edit_cache.dir
-/home/greys/Documents/Doc/C+/my_progect/ai/piper_my/build/CMakeFiles/rebuild_cache.dir

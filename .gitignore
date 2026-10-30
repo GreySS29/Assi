@@ -1,0 +1,16 @@
+.vscode/
+llama.cpp/
+mimic3/
+piper1-gpl/
+whisper.cpp/
+assi/build/
+bin/
+obj/
+*.o
+assi/CMakeFiles/
+assi/CMakeCache.txt
+assi/Makefile
+wisper_my/build/
+test_Whis+Lam/build/
+piper_my/build
+proj/build

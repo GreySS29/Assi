@@ -15,7 +15,7 @@ add_subdirectory(../llama.cpp llama_build)
 # Твой исполняемый файл
 add_executable(app main.cpp 
     ../wisper_my/my_whisper.cpp 
-    ../llama_my/my_llama.cpp
+    src/llama.cpp
     ../piper_my/my_piper.cpp
     ../piper_my/alsa.cpp )
 
