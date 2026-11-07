@@ -1,6 +1,6 @@
 
-#include "my_whisper.h"
-#include "my_llama.h"
+#include "../../include/Record.h"
+#include "../../include/Llama.h"
 
 const char start {'s'};
 const char end {'q'};
@@ -13,7 +13,7 @@ int main ()
 
     try
     {
-        VoiceOperate voice;
+        Record voice;
         Llama llama;
         while (true) 
         {
