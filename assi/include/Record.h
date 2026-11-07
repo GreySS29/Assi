@@ -5,12 +5,12 @@
 #include <string>
 #include <vector>
 
-class VoiceOperate {
+class Record {
 
     public:
-    VoiceOperate(const char*);
-    VoiceOperate();
-    ~VoiceOperate();
+    Record(const char*);
+    //Record();
+    ~Record();
     std::vector<float> capture_audio(int duration_sec, int sample_rate);
     std::vector<float> resample_audio(const std::vector<float>& input,int input_rate,int output_rate);
     std::string transcribe_audio(const std::vector<float>& audio_16khz);

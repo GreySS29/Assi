@@ -1,5 +1,5 @@
 
-#include "my_whisper.h"
+#include "include/Record.h"
 #include "include/Llama.h"
 #include "my_piper.h"
 #include <memory>
@@ -17,23 +17,31 @@ int main ()
 {
     char but {};
     string input {};
-    std::unique_ptr<VoiceOperate> voice;
+    std::unique_ptr<Record> voice;
     std::unique_ptr<My_piper> piper;
-    Llama llama;
+    std::unique_ptr<Llama> llama; 
 
     bool mic_created = false;
     for (const char* device : mic_devices) {
         try {
-            voice = std::make_unique<VoiceOperate>(device);
+            voice = std::make_unique<Record>(device);
             mic_created = true;
-            std::cout << "Микрофон успешно создан: " << device << '\n';
+            std::cout << "Mic was created: " << device << '\n';
             break;  
         }
         catch (const std::exception& e) {
-            std::cerr << "Ошибка с " << device << ": " << e.what() << '\n';
+            std::cerr << "Error with " << device << ": " << e.what() << '\n';
             continue;
             
         }
+    }
+
+    try { 
+        llama = std::make_unique<Llama>();
+        std::cout << "Llama was created" << '\n';
+    }
+    catch (const std::exception& e) {
+        std::cerr << "Error during creating the llama model" << e.what() << '\n';
     }
 
     bool piper_created = false;
@@ -52,12 +60,12 @@ int main ()
     }
 
     if (!mic_created) {
-        std::cerr << "Не удалось создать VoiceOperate ни с одним устройством\n";
+        std::cerr << "Record with any device wasn't created\n";
         return 1;
     }
 
      if (!piper_created) {
-        std::cerr << "Не удалось создать Piper ни с одним устройством\n";
+        std::cerr << "Piper with any device wasn't created\n";
         return 1;
     }
 
@@ -77,7 +85,7 @@ int main ()
                     return 1;
                 } 
                 std::cout << input << '\n';
-                string answer = llama.llm_generate(input,system_prompt);
+                string answer = llama->llm_generate(input,system_prompt);
                 std::cout << answer<<'\n';
                 piper->start(answer.data());
                 

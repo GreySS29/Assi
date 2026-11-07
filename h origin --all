@@ -1,0 +1,53 @@
+[33mcommit 0fc35e20543348dd28f4d780bba05e4149b2e44c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: GreySS29 <razor2911ss@gmail.com>
+Date:   Fri Oct 30 14:16:28 2026 +0900
+
+    Ignore build directories
+
+[33mcommit 446b40dbe89d3b8023db0107608ae3a081a951e7[m
+Author: GreySS29 <razor2911ss@gmail.com>
+Date:   Fri Oct 30 14:15:59 2026 +0900
+
+    Stop tracking llama build directory
+
+[33mcommit f05bde4b819bf04eebd9cac8544887592265764b[m
+Author: GreySS29 <razor2911ss@gmail.com>
+Date:   Fri Oct 30 14:10:46 2026 +0900
+
+    Apply .gitignore and remove tracked ignored files
+
+[33mcommit d85c88ab85daa79b2ffa193050c506b2139ebd0a[m
+Author: GreySS29 <razor2911ss@gmail.com>
+Date:   Sat Jul 25 19:07:01 2026 +0900
+
+    reviewed assistant's reply
+
+[33mcommit b687d4e6135f3402b5982f2eabbbfcc62572471a[m
+Author: GreySS29 <razor2911ss@gmail.com>
+Date:   Sat Jun 27 17:56:30 2026 +0900
+
+    worked with piper , put system prompt in main
+
+[33mcommit b21404fb9abe41d7c22155d50072f10db84969a9[m
+Author: GreySS29 <razor2911ss@gmail.com>
+Date:   Sat Jun 20 19:04:48 2026 +0900
+
+    coped with handling of inputMIc
+
+[33mcommit 52a1efd7d0323415b17369757e34925532d83796[m
+Author: GreySS29 <razor2911ss@gmail.com>
+Date:   Sun Jun 14 22:20:28 2026 +0900
+
+    created full stack
+
+[33mcommit ad5c84ca7be336f33825f2c6461e7dc573c7f1f4[m
+Author: GreySS29 <razor2911ss@gmail.com>
+Date:   Thu May 7 18:59:15 2026 +0900
+
+    Link Whisper + llama
+
+[33mcommit 4907a01a2d9c2636455d5ce245ed38797eddd953[m
+Author: GreySS29 <razor2911ss@gmail.com>
+Date:   Wed May 6 22:11:15 2026 +0900
+
+    First

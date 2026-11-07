@@ -14,7 +14,7 @@ add_subdirectory(../llama.cpp llama_build)
 
 # Твой исполняемый файл
 add_executable(app main.cpp 
-    ../wisper_my/my_whisper.cpp 
+    src/record.cpp 
     src/llama.cpp
     ../piper_my/my_piper.cpp
     ../piper_my/alsa.cpp )
@@ -28,9 +28,9 @@ target_link_libraries(app PRIVATE
     ALSA::ALSA
 )
 target_include_directories(app PRIVATE ../whisper.cpp)
-target_include_directories(app PRIVATE ../wisper_my)
+#target_include_directories(app PRIVATE ../wisper_my)
 target_include_directories(app PRIVATE ../llama.cpp)
-target_include_directories(app PRIVATE ../llama_my)
+#target_include_directories(app PRIVATE ../llama_my)
 target_include_directories(app PRIVATE ../piper_my)
 
 target_include_directories(app PRIVATE ../llama.cpp/ggml/include)
