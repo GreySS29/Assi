@@ -1,6 +1,6 @@
-#include "my_piper.h"
+#include "../include/Voice.h"
 
-My_piper::My_piper(const char* input)
+Voice::Voice(const char* input)
 {
     alsa = new Alsa(input);
     if (!alsa->get_pcm()) {
@@ -19,7 +19,7 @@ My_piper::My_piper(const char* input)
 }
     
 
-// void My_piper::start(const char* respond)
+// void Voice::start(const char* respond)
 // {
 //     piper_synthesize_options options = piper_default_synthesize_options(synth);
 //     piper_synthesize_start(synth,respond, &options);
@@ -34,7 +34,7 @@ My_piper::My_piper(const char* input)
 //     }
 
 
-void My_piper::start(const char* respond)
+void Voice::start(const char* respond)
 {
     piper_synthesize_options options = piper_default_synthesize_options(synth);
     piper_synthesize_start(synth, respond, &options);
@@ -71,7 +71,7 @@ void My_piper::start(const char* respond)
     }
 }
 
-std::vector<int16_t> My_piper::convert_float_int16()
+std::vector<int16_t> Voice::convert_float_int16()
 {
     std::vector<int16_t> all_stereo;
 
@@ -92,7 +92,7 @@ std::vector<int16_t> My_piper::convert_float_int16()
     return all_stereo;  
 }
 
-My_piper::~My_piper()
+Voice::~Voice()
 {
     snd_pcm_drain(alsa->get_pcm());
     snd_pcm_close(alsa->get_pcm());

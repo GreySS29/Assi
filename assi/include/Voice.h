@@ -7,11 +7,11 @@
 #include "Alsa.h"
 #include <string>
 
-class My_piper {
+class Voice {
     public:
 
-    My_piper(const char* input);
-    ~My_piper();
+    Voice(const char* input);
+    ~Voice();
     void start (const char*);
 
     private:

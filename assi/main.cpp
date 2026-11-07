@@ -1,7 +1,7 @@
 
 #include "include/Record.h"
 #include "include/Llama.h"
-#include "my_piper.h"
+#include "include/Voice.h"
 #include <memory>
 #include <string>
 
@@ -18,7 +18,7 @@ int main ()
     char but {};
     string input {};
     std::unique_ptr<Record> voice;
-    std::unique_ptr<My_piper> piper;
+    std::unique_ptr<Voice> piper;
     std::unique_ptr<Llama> llama; 
 
     bool mic_created = false;
@@ -47,7 +47,7 @@ int main ()
     bool piper_created = false;
     for (const char* device : output_devices){
         try {
-            piper = std::make_unique<My_piper>(device);
+            piper = std::make_unique<Voice>(device);
             piper_created = true;
             std::cout << "Piper created: " << device << '\n';
             break;

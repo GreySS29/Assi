@@ -11,7 +11,6 @@ class Alsa{
     snd_pcm_hw_params_t *params;
     int err;
 
-    
     snd_pcm_t* get_pcm() const { return pcm; }
 
 };
