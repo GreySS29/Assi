@@ -9,14 +9,15 @@
 
 class Logger {
 private:
-    std::string date;
-    std::string path;
-    std::ofstream log;
+    std::string date_;
+    std::string path_;
+    std::ofstream log_;
+    //std::string message_;
 
 public:
     Logger() {
         set_path();
-        log.open(path);
+        log_.open(path_, std::ios::app); 
     }
 
     void set_date() {
@@ -29,11 +30,17 @@ public:
     std::ostringstream stream;
     stream << std::put_time(&local_time, "%d.%m.%Y");
 
-    date = stream.str();
+    date_ = stream.str();
 }
 
     void set_path() {
         set_date();
-        path = "../folder/" + date + ".txt";
+        path_ = "/home/greys/Documents/Doc/C+/my_progect/ai/History/" + date_ + ".txt";
+    }
+
+    void write_message(const std::string& message , bool is_me) {
+        log_ << (is_me ? "Me: " : "Assi: ") << message << '\n';
+       log_.flush(); 
+       
     }
 };

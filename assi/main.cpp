@@ -2,6 +2,7 @@
 #include "include/Record.h"
 #include "include/Llama.h"
 #include "include/Voice.h"
+#include "include/Log.h"
 #include <memory>
 #include <string>
 
@@ -9,7 +10,7 @@ using   str = std::string;
 
 const char start {'s'};
 const char end {'q'};
-const char* mic_devices[] = {"plughw:0,0", "plughw:1,0", "plughw:2,0","default"};
+const char* mic_devices[] = {"plughw:0,0", "plughw:1,0", "plughw:2,0","plughw:3,0","plughw:3,2","default"};
 const char* output_devices[] = {"plughw:3,0","plughw:3,2","default"};
 const str system_prompt = "You are English teacher. Answer very shortly, 1 or 2 sentences and stop";
 
@@ -20,6 +21,7 @@ int main ()
     std::unique_ptr<Record> voice;
     std::unique_ptr<Voice> piper;
     std::unique_ptr<Llama> llama; 
+    Logger log;
 
     bool mic_created = false;
     for (const char* device : mic_devices) {
@@ -72,6 +74,7 @@ int main ()
     
     try
     {  
+        
         while (true) 
         {
             std::cin >> but;
@@ -85,11 +88,11 @@ int main ()
                     return 1;
                 } 
                 std::cout << input << '\n';
+                log.write_message(input,true);
                 string answer = llama->llm_generate(input,system_prompt);
                 std::cout << answer<<'\n';
+                log.write_message(answer,false);
                 piper->start(answer.data());
-                
-                
             }
         }
         return 0;

@@ -4,6 +4,7 @@ mimic3/
 piper1-gpl/
 whisper.cpp/
 **/build/
+History/
 
 bin/
 obj/
