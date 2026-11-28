@@ -12,7 +12,7 @@ const char start {'s'};
 const char end {'q'};
 const char* mic_devices[] = {"plughw:0,0", "plughw:1,0", "plughw:2,0","plughw:3,0","plughw:3,2","default"};
 const char* output_devices[] = {"plughw:3,0","plughw:3,2","default"};
-const str system_prompt = "You are English teacher. Answer very shortly, 1 or 2 sentences and stop";
+const str system_prompt = "You are English teacher. Answer very shortly, 2 or 3 sentences and stop";
 
 int main () 
 {
@@ -22,6 +22,7 @@ int main ()
     std::unique_ptr<Voice> piper;
     std::unique_ptr<Llama> llama; 
     Logger log;
+    
 
     bool mic_created = false;
     for (const char* device : mic_devices) {
@@ -81,6 +82,8 @@ int main ()
             if (but == end) break;
             if (but == start)
             {
+                std::string history = log.read_history();
+
                 input = voice->wish_rec(3);
                 if (input.empty())
                 {
@@ -88,10 +91,10 @@ int main ()
                     return 1;
                 } 
                 std::cout << input << '\n';
-                log.write_message(input,true);
-                string answer = llama->llm_generate(input,system_prompt);
+                log.write_message_llama(input,true);
+                string answer = llama->llm_generate(input,history, system_prompt);
                 std::cout << answer<<'\n';
-                log.write_message(answer,false);
+                log.write_message_llama(answer,false);
                 piper->start(answer.data());
             }
         }

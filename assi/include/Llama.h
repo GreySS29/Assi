@@ -13,7 +13,7 @@ class Llama {
     public:
     Llama();
     ~Llama();
-    string llm_generate(const string& prompt, const string& system);
+    string llm_generate(const string& prompt,const string& history, const string& system);
 
 
     private:

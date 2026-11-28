@@ -94,14 +94,17 @@ Llama::~Llama()
 // };
 
 
-string Llama::llm_generate(const string& prompt, const string& system)
+string Llama::llm_generate(const string& prompt, const string& history, const string& system)
 {
-    string full_prompt =
-    "<|start_header_id|>system<|end_header_id|>\n"
+   string full_prompt =
+    "<|start_header_id|>system<|end_header_id|>\n\n"
     + system +
-    "\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n"
+    "<|eot_id|>"
+    + history +
+    "<|start_header_id|>user<|end_header_id|>\n\n"
     + prompt +
-    "\n<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n";
+    "<|eot_id|>"
+    "<|start_header_id|>assistant<|end_header_id|>\n\n";
 
     int n_prompt = -llama_tokenize(
         vocab_,
